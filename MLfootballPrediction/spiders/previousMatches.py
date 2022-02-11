@@ -52,7 +52,6 @@ class getMatchesSpider(scrapy.Spider):
            if x1 and x3:             odds.append(x3)
            if x1 and len(x3) == 0:   odds.append([3.33, 3.33, 3.33])
            if x4:                    dates.append(x4[-1])
-           print(x4[-1])
 
 
         year =  datetime.today().strftime('%Y')
