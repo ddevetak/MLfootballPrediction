@@ -2,138 +2,207 @@ import pandas as pd
 import numpy as np
 import ast
 import math
-import matplotlib.pyplot as plt
+from tabulate import tabulate
+import sys
+import pickle
+
 # sklearn regressor
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import RepeatedStratifiedKFold
+from sklearn.model_selection import cross_val_score
+
+from sklearn import model_selection
+
+from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 
 from sklearn.model_selection import train_test_split
-
-df = pd.read_csv("finalData.csv", index_col=False)
-
-teamList = list(set(df['homeTeam']))
-
-gamesPerTeam = dict()
-
-for teamName in teamList:
-   games = df.loc[(df['homeTeam'] == teamName) | (df['awayTeam'] == teamName)]
-   gamesPerTeam[teamName] = games
-
-blockSize = 6 # how many previous matches to take for input definition
-
-inputFrame =  pd.DataFrame()
-inputFrame2 = pd.DataFrame()
-
-Count = -1
-
-# collect all matches for which N previous data points (games) exist
-for index, row in df.iterrows():
-
-    homeTeam, awayTeam, matchDate = row['homeTeam'], row['awayTeam'], row['date']
-    odds = [ float(x) for x in ast.literal_eval(row['odds']) ]
-    oddsRatio = odds[0]/odds[2]
-
-    avHomeTeamGoalsScored, avHomeTeamGoalsConceded = [], []
-    avAwayTeamGoalsScored, avAwayTeamGoalsConceded = [], []
-
-    gamesHome = gamesPerTeam[homeTeam]
-    gamesAway = gamesPerTeam[awayTeam]
-
-    homeBlock = gamesHome[gamesHome['date'] < matchDate]  # for given home team get matches before defined 'date'
-    awayBlock = gamesAway[gamesAway['date'] < matchDate]
-
-    # add to result ':h' or ':a' label to differentiate home, away case
-    for hindex, hrow in homeBlock.iterrows():
-        cResult = homeBlock.loc[hindex, 'result']
-        if homeTeam == hrow['homeTeam']: homeBlock.loc[hindex]['result'] = cResult + ':h'
-        if homeTeam == hrow['awayTeam']: homeBlock.loc[hindex]['result'] = cResult + ':a'
-
-    for hindex, hrow in awayBlock.iterrows():
-        cResult = awayBlock.loc[hindex, 'result']
-        if awayTeam == hrow['homeTeam']: awayBlock.loc[hindex]['result'] = cResult + ':h'
-        if awayTeam == hrow['awayTeam']: awayBlock.loc[hindex]['result'] = cResult + ':a'
-
-    if len(homeBlock) >= blockSize and len(awayBlock) >= blockSize:
-
-        Count += 1
-
-        resHome = list(homeBlock['result'])[0:blockSize][::-1]  # last "blockSize" matches for given home team
-        resAway = list(awayBlock['result'])[0:blockSize][::-1]
-
-        resHome2 = [x.split(":") for x in resHome]
-        resAway2 = [x.split(":") for x in resAway]
-
-        for xx in resHome2:
-            if xx[2] == 'h': 
-                avHomeTeamGoalsScored.append(int(xx[0]))
-                avHomeTeamGoalsConceded.append(int(xx[1]))
-            if xx[2] == 'a': 
-                avHomeTeamGoalsScored.append(int(xx[1]))
-                avHomeTeamGoalsConceded.append(int(xx[0]))
-
-        for xx in resAway2:
-            if xx[2] == 'h': 
-                avAwayTeamGoalsScored.append(int(xx[0]))
-                avAwayTeamGoalsConceded.append(int(xx[1]))
-            if xx[2] == 'a': 
-                avAwayTeamGoalsScored.append(int(xx[1]))
-                avAwayTeamGoalsConceded.append(int(xx[0]))
-
-
-        Result = int(row['result'][0]) - int(row['result'][2])
-        Wodds = None
-        if   Result > 0: Wodds = odds[0] 
-        elif Result < 0: Wodds = odds[2] 
-        else: Wodds = odds[1] 
-
-        inputData = {"homeTeam": homeTeam, "awayTeam": awayTeam, \
-                     "avHomeTeamScored": sum(avHomeTeamGoalsScored)/len(resHome2), \
-                     "avHomeTeamConceded": sum(avHomeTeamGoalsConceded)/len(resHome2), \
-
-                     "avAwayTeamScored": sum(avAwayTeamGoalsScored)/len(resHome2), \
-                     "avAwayTeamConceded": sum(avAwayTeamGoalsConceded)/len(resHome2), \
-
-                     "oddsRatio": oddsRatio, "Wodds": Wodds, "result": np.sign(Result) }
-
-        inputData2 = {"homeTeam": homeTeam, "awayTeam": awayTeam, \
-                     "homeData": str(resHome), "awayData": str(resAway), \
-                     "oddsRatio": oddsRatio, "Wodds": Wodds, "result": Result }
+from sklearn.model_selection import GridSearchCV
 
 
 
-        inputFrame =  inputFrame.append(pd.DataFrame(inputData,  index=[Count]))
-        inputFrame2 = inputFrame2.append(pd.DataFrame(inputData2, index=[Count]))
+ 
+def singleFormating(df, gamesPerTeam, blockSize, dataType):  # df is full data - but here for match looping
 
-        #if index == 0: break
+    inputFrame =   pd.DataFrame()
+    inputFrame2 =  pd.DataFrame()
+
+    Count = -1
+    
+    for index, row in df.iterrows():
+    
+        homeTeam, awayTeam, matchDate = row['homeTeam'], row['awayTeam'], row['date']
+        odds = [ float(x) for x in ast.literal_eval(row['odds']) ]
+        oddsRatio = odds[0]/odds[2]
+    
+        avHomeTeamGoalsScored, avHomeTeamGoalsConceded = [], []
+        avAwayTeamGoalsScored, avAwayTeamGoalsConceded = [], []
+
+        hW, hD, hL = 0, 0, 0
+        aW, aD, aL = 0, 0, 0
+    
+        gamesHome = gamesPerTeam[homeTeam]
+        gamesAway = gamesPerTeam[awayTeam]
+    
+        homeBlock = gamesHome[gamesHome['date'] < matchDate]  # for given home team get matches before defined 'date'
+        awayBlock = gamesAway[gamesAway['date'] < matchDate]
+    
+        # add to result ':h' or ':a' label to differentiate home, away case
+        for hindex, hrow in homeBlock.iterrows():
+            cResult = homeBlock.loc[hindex, 'result']
+            if homeTeam == hrow['homeTeam']: homeBlock.loc[hindex]['result'] = cResult + ':h'
+            if homeTeam == hrow['awayTeam']: homeBlock.loc[hindex]['result'] = cResult + ':a'
+    
+        for hindex, hrow in awayBlock.iterrows():
+            cResult = awayBlock.loc[hindex, 'result']
+            if awayTeam == hrow['homeTeam']: awayBlock.loc[hindex]['result'] = cResult + ':h'
+            if awayTeam == hrow['awayTeam']: awayBlock.loc[hindex]['result'] = cResult + ':a'
+    
+        if len(homeBlock) >= blockSize and len(awayBlock) >= blockSize:
+    
+            Count += 1
+    
+            resHome = list(homeBlock['result'])[0:blockSize][::-1]  # last "blockSize" matches for given home team
+            resAway = list(awayBlock['result'])[0:blockSize][::-1]
+    
+            resHome2 = np.array([x.split(":") for x in resHome])
+            resAway2 = np.array([x.split(":") for x in resAway])
+
+            resHome2h, resHome2a  = resHome2[resHome2[:, 2] == 'h'], resHome2[resHome2[:, 2] == 'a']
+            resAway2h, resAway2a  = resAway2[resAway2[:, 2] == 'h'], resAway2[resAway2[:, 2] == 'a']
+
+            for ii in resHome2h:
+                if int(ii[0]) - int(ii[1])   > 0: hW += 1
+                elif int(ii[0]) - int(ii[1]) < 0: hL += 1
+                else: hD += 1          
+            for ii in resHome2a:
+                if int(ii[1]) - int(ii[0])   > 0: hW += 1
+                elif int(ii[1]) - int(ii[0]) < 0: hL += 1
+                else: hD += 1          
+
+            for ii in resAway2h:
+                if int(ii[0]) - int(ii[1])   > 0: aW += 1
+                elif int(ii[0]) - int(ii[1]) < 0: aL += 1
+                else: aD += 1          
+            for ii in resAway2a:
+                if int(ii[1]) - int(ii[0])   > 0: aW += 1
+                elif int(ii[1]) - int(ii[0]) < 0: aL += 1
+                else: aD += 1          
+
+            for xx in resHome2:
+                if xx[2] == 'h': 
+                    avHomeTeamGoalsScored.append(int(xx[0]))
+                    avHomeTeamGoalsConceded.append(int(xx[1]))
+                if xx[2] == 'a': 
+                    avHomeTeamGoalsScored.append(int(xx[1]))
+                    avHomeTeamGoalsConceded.append(int(xx[0]))
+    
+            for xx in resAway2:
+                if xx[2] == 'h': 
+                    avAwayTeamGoalsScored.append(int(xx[0]))
+                    avAwayTeamGoalsConceded.append(int(xx[1]))
+                if xx[2] == 'a': 
+                    avAwayTeamGoalsScored.append(int(xx[1]))
+                    avAwayTeamGoalsConceded.append(int(xx[0]))
+    
+            if dataType == 'historical': 
+               tempRes = row['result'].split(":")
+               Result = int(tempRes[0]) - int(tempRes[1])
+               Wodds = None
+               if   Result > 0: Wodds = odds[0] 
+               elif Result < 0: Wodds = odds[2] 
+               else: Wodds = odds[1] 
+            else:
+               Result =11
+               Wodds = None 
+       
+            inputData = {"homeTeam": homeTeam, "awayTeam": awayTeam, \
+                         "avHomeTeamScored": sum(avHomeTeamGoalsScored), \
+                         "avHomeTeamConceded": sum(avHomeTeamGoalsConceded), \
+                         "avAwayTeamScored": sum(avAwayTeamGoalsScored), \
+                         "avAwayTeamConceded": sum(avAwayTeamGoalsConceded), \
+                         "hW": hW, "hD": hD, "hL": hL,    
+                         "aW": aW, "aD": aD, "aL": aL,    
+
+                         "oddsRatio": oddsRatio, "result": np.sign(Result) }
+    
+    
+            inputFrame =  inputFrame.append(pd.DataFrame(inputData,  index=[Count]))
+
+    return inputFrame
+
+
+class FormatData:
+
+      def __init__(self, fileName, nGames):
+      
+          self.df = pd.read_csv(fileName, index_col=False)
+          self.blockSize = nGames
+          self.teamNames = list(set(self.df['homeTeam']))
+          self.gamesPerTeam = dict()
+
+          self.inputFrame =  pd.DataFrame()
+          self.X_numpy, self.y_numpy = None, None
    
+          for teamName in self.teamNames:
+            games = self.df.loc[(self.df['homeTeam'] == teamName) | (self.df['awayTeam'] == teamName)]
+            self.gamesPerTeam[teamName] = games
 
-###########################################
+          self.fullFormating()  
+
+      def fullFormating(self):    
+
+          self.inputFrame = singleFormating(self.df, self.gamesPerTeam, self.blockSize, 'historical')
+
+
+          self.X_numpy = self.inputFrame[["avHomeTeamScored", "avHomeTeamConceded", "avAwayTeamScored", "avAwayTeamConceded", "hW", "hD", "hL", "aW", "aD", "aL", "oddsRatio"]].to_numpy()  # 14 columns
+          self.y_numpy = self.inputFrame["result"].to_numpy()
+
+                 
+#################################################
 # model data
 
 
-X = inputFrame[["avHomeTeamScored", "avHomeTeamConceded", "avAwayTeamScored", "avAwayTeamConceded", "oddsRatio", "Wodds"]].to_numpy()
-y = inputFrame["result"].to_numpy()
 
-#model = GradientBoostingRegressor()
-model = GradientBoostingClassifier()
+dataObject = FormatData("finalData.csv", 6)   # ger2+, italy1+
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+X, y = dataObject.X_numpy, dataObject.y_numpy
 
-model.fit(X_train[:, 0:5], y_train)
+model =  LogisticRegression(solver = 'liblinear', max_iter=700)
 
 
-print( f'train model score = {model.score(X_train[:, 0:5], y_train):.3f}' )
-print( f'test model score  = {model.score(X_test[:, 0:5], y_test):.3f}' )
-print( f'test model prob   = {1/model.score(X_test[:, 0:5], y_test):.3f}' )
-print( f'mean test odds    = {np.mean(X_test[:, 5]):.3f}' )
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=43)
+
+model.fit(X_train, y_train)
+
+print( f'train model score = {model.score(X_train, y_train):.3f}' )
+print( f'test model score  = {model.score(X_test, y_test):.3f}' )
+print( f'test model prob   = {1/model.score(X_test, y_test):.3f}' )
+print( f'mean test odds    = {np.mean(X_test):.3f}' )
+
+
+####################################################
+# new matches
+
+nextDF = pd.read_csv("games.csv")
+
+data16 = singleFormating(nextDF, dataObject.gamesPerTeam, dataObject.blockSize, 'next')
+
+predictions = []
+
+for index, row in data16.iterrows():
+
+    temp = row.to_numpy()[2:13][None, :]
+    pred = model.predict(temp)
+
+    predictions.append(pred.item())
 
 
 
+data16.drop(["result"], axis = 1)
+data16["prediction"] = predictions
 
-
-
-
-
-
-
+print(data16)
