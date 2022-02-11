@@ -8,3 +8,8 @@ import scrapy
 class MlfootballpredictionItem(scrapy.Item):
     # define the fields for your item here like:
     seasonData = scrapy.Field()   
+
+
+class nextMatches(scrapy.Item):
+    # define the fields for your item here like:
+    seasonData = scrapy.Field()   
