@@ -190,19 +190,19 @@ print( f'mean test odds    = {np.mean(X_test):.3f}' )
 nextDF = pd.read_csv("games.csv")
 
 data16 = singleFormating(nextDF, dataObject.gamesPerTeam, dataObject.blockSize, 'next')
+data16 = data16.drop(["result"], axis = 1)
 
 predictions = []
 
 for index, row in data16.iterrows():
 
-    temp = row.to_numpy()[2:13][None, :]
+    temp = row.to_numpy()[2:][None, :]
     pred = model.predict(temp)
 
     predictions.append(pred.item())
 
 
 
-data16.drop(["result"], axis = 1)
 data16["prediction"] = predictions
 
 print(data16)
