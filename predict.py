@@ -127,7 +127,8 @@ def singleFormating(df, gamesPerTeam, blockSize, dataType):  # df is full data -
                          "hW": hW, "hD": hD, "hL": hL,    
                          "aW": aW, "aD": aD, "aL": aL,    
 
-                         "oddsRatio": oddsRatio, "result": np.sign(Result) }
+                         #"oddsRatio": oddsRatio, "result": np.sign(Result) }
+                         "Hodds": odds[0], "Dodds": odds[1], "Aodds": odds[2], "result": np.sign(Result) }
     
     
             inputFrame =  inputFrame.append(pd.DataFrame(inputData,  index=[Count]))
@@ -157,31 +158,45 @@ class FormatData:
 
           self.inputFrame = singleFormating(self.df, self.gamesPerTeam, self.blockSize, 'historical')
 
-
-          self.X_numpy = self.inputFrame[["avHomeTeamScored", "avHomeTeamConceded", "avAwayTeamScored", "avAwayTeamConceded", "hW", "hD", "hL", "aW", "aD", "aL", "oddsRatio"]].to_numpy()  # 14 columns
+          #self.X_numpy = self.inputFrame[["avHomeTeamScored", "avHomeTeamConceded", "avAwayTeamScored", "avAwayTeamConceded", "hW", "hD", "hL", "aW", "aD", "aL", "oddsRatio"]].to_numpy()  # 14 columns
+          self.X_numpy = self.inputFrame[["avHomeTeamScored", "avHomeTeamConceded", "avAwayTeamScored", "avAwayTeamConceded", "hW", "hD", "hL", "aW", "aD", "aL", "Hodds", "Dodds", "Aodds"]].to_numpy()  # 14 columns
           self.y_numpy = self.inputFrame["result"].to_numpy()
 
                  
-#################################################
+####################################################
 # model data
-
-
 
 dataObject = FormatData("finalData.csv", 6)   # ger2+, italy1+
 
 X, y = dataObject.X_numpy, dataObject.y_numpy
 
-model =  LogisticRegression(solver = 'liblinear', max_iter=700)
+#model =  LogisticRegression(solver = 'liblinear', max_iter=700)
+model = RandomForestClassifier()
 
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=11)
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=43)
+odds_test =  X_test[:, 10:]
+X_train, X_test = X_train[:, 0:10], X_test[:, 0:10]
+
 
 model.fit(X_train, y_train)
+
+odds_compare = np.concatenate((y_test[:, None], model.predict(X_test)[:, None], odds_test), axis = 1)
+
+ODDS = []
+for xx in odds_compare:
+    if xx[0] == xx[1]:
+        if xx[1] ==  1:  ODDS.append(xx[2])
+        if xx[1] ==  0:  ODDS.append(xx[3])
+        if xx[1] == -1:  ODDS.append(xx[4])
+
+ODDS = sum(ODDS)/len(ODDS)
+
+print(ODDS)
 
 print( f'train model score = {model.score(X_train, y_train):.3f}' )
 print( f'test model score  = {model.score(X_test, y_test):.3f}' )
 print( f'test model prob   = {1/model.score(X_test, y_test):.3f}' )
-print( f'mean test odds    = {np.mean(X_test):.3f}' )
 
 
 ####################################################
@@ -191,6 +206,7 @@ nextDF = pd.read_csv("games.csv")
 
 data16 = singleFormating(nextDF, dataObject.gamesPerTeam, dataObject.blockSize, 'next')
 data16 = data16.drop(["result"], axis = 1)
+data16 = data16.drop(["Hodds", "Dodds", "Aodds"], axis = 1)
 
 predictions = []
 
