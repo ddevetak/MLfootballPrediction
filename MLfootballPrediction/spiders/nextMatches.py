@@ -10,7 +10,8 @@ class getMatchesSpider(scrapy.Spider):
     def start_requests(self):
 
         urls = [
-            'https://www.betexplorer.com/soccer/norway/eliteserien/',
+            #'https://www.betexplorer.com/soccer/norway/eliteserien/',
+            'https://www.betexplorer.com/soccer/italy/serie-a/'
         ]
 
         for url in urls:

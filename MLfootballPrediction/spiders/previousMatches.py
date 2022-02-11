@@ -1,5 +1,6 @@
 import numpy as np
 import scrapy
+from scrapy_splash import SplashRequest
 from MLfootballPrediction.items import MlfootballpredictionItem
 import pandas as pd
 from datetime import datetime, timedelta
@@ -10,10 +11,14 @@ class getMatchesSpider(scrapy.Spider):
     def start_requests(self):
 
         urls = [
-            'https://www.betexplorer.com/soccer/norway/eliteserien/results/',
-            'https://www.betexplorer.com/soccer/norway/eliteserien-2020/results/',
-            'https://www.betexplorer.com/soccer/norway/eliteserien-2019/results/',
-            #'https://www.betexplorer.com/soccer/norway/eliteserien-2018/results/'
+
+                'https://www.betexplorer.com/soccer/italy/serie-a/results',
+                'https://www.betexplorer.com/soccer/italy/serie-a-2020-2021/results',
+                'https://www.betexplorer.com/soccer/italy/serie-a-2019-2020/results',
+                'https://www.betexplorer.com/soccer/italy/serie-a-2018-2019/results',
+                'https://www.betexplorer.com/soccer/italy/serie-a-2017-2018/results',
+                #'https://www.betexplorer.com/soccer/italy/serie-a-2016-2017/results',
+
         ]
 
         for url in urls:
@@ -23,35 +28,52 @@ class getMatchesSpider(scrapy.Spider):
 
         item = MlfootballpredictionItem()
 
-        # matches, results, odds and time 
-        matches = np.array(response.xpath('//td[@class="h-text-left"]/a/span/text() | //td[@class="h-text-left"]/a/span/strong/text()').extract())
-        matches.shape = (int(len(matches)/2), 2)
-        result = np.array(response.xpath('//td[@class="h-text-center"]/a/text()').extract())
+        # NEW format
+        teamNames, results, dates, odds = [], [], [], []
 
-        # formating date
-        date =  response.xpath('//td[@class="h-text-right h-text-no-wrap"]/text()').extract()
+        currentLeagueName = response.xpath('//h1[@class="wrap-section__header__title"]/span/text()').extract()[1]
+
+        print(currentLeagueName)
+
+        for ss in response.xpath('//div[@id="js-leagueresults-all"]/div/div/table/tr')[1:]:
+
+           if 'POSTP.' in ss.xpath("./td/a/span/text()").extract(): continue 
+
+           x1 = ss.xpath("./td/a/span/strong/text() | ./td/a/span/text()").extract()  # teamNames
+           x2 = ss.xpath("./td/a/text() | ./td/a/span/@title").extract()              # result 
+           x3 = ss.xpath("./td/@data-odd | ./td/span/span/span/@data-odd").extract()  # ODDS
+           x4 = ss.xpath("./td/text()").extract()                                     # date  
+
+
+           if not x2: continue  # reading if not filled
+           if x2[1] == 'Canceled': continue
+           results.append(x2[1])
+           if x1:                    teamNames.append(x1)
+           if x1 and x3:             odds.append(x3)
+           if x1 and len(x3) == 0:   odds.append([3.33, 3.33, 3.33])
+           if x4:                    dates.append(x4[-1])
+           print(x4[-1])
+
+
         year =  datetime.today().strftime('%Y')
         yesterday0 = datetime.now() - timedelta(1)
         yesterday = str(yesterday0.day) + "." + str(yesterday0.month) + "." + str(yesterday0.year)
 
-        for cDate in date:
-            if len(cDate)==6:
-              date[date.index(cDate)] = cDate + year
+        for cDate in dates:
+            if len(cDate)==6:  # 6 = len('02.11.')
+              dates[dates.index(cDate)] = cDate + year
             if cDate == "Yesterday":  
-              date[date.index(cDate)] = yesterday
+              dates[dates.index(cDate)] = yesterday
 
 
-        odds = np.array(response.xpath('//td[@class="table-main__odds"]/@data-odd | //td[@class="table-main__odds colored"]/span/span/span/@data-odd').extract())
-        odds.shape = (len(matches), 3)
-        
-        DATA = list(zip(matches, result, odds, date))
+        DATA = list(zip(teamNames, results, odds, dates))
 
         fullData = []
         for xx in DATA:
-          tempDict = {"homeTeam": xx[0][0], "awayTeam": xx[0][1], "result": xx[1], "odds": list(xx[2]), "date": pd.to_datetime(xx[3], format='%d.%m.%Y')} # final Y-M-D
+          tempDict = {"homeTeam": xx[0][0], "awayTeam": xx[0][1], "league": currentLeagueName, "result":xx[1], "odds": list(xx[2]), "date": pd.to_datetime(xx[3], format='%d.%m.%Y')} # final Y-M-D
           fullData.append(tempDict)
 
-        item['seasonData'] = fullData
+        item["seasonData"] = fullData  
+
         return item
-
-
+ 
