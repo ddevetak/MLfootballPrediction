@@ -16,20 +16,20 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 
 `pd.read_csv("01-04-2022/premier/games.csv")`
 
-<img src="https://github.com/ddevetak/MLfootballPrediction/blob/master/figures/games.png" width="660" height="200">
+<img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/games.png" width="660" height="200">
 
 
 5. Get previous historical games `./previousMatches.sh premier`
 
 `pd.read_csv("01-04-2022/premier/finalData.csv")`
 
-<img src="https://github.com/ddevetak/MLfootballPrediction/blob/master/figures/data.png" width="600" height="200">
+<img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/data.png" width="600" height="200">
 
 
 6. Predict outcomes `run predict.py 01-04-2022/premier/`
 
 
-<img src="https://github.com/ddevetak/MLfootballPrediction/blob/master/figures/predictions.png" width="660" height="200">
+<img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/predictions.png" width="660" height="200">
 
 
 
