@@ -10,16 +10,17 @@ class getMatchesSpider(scrapy.Spider):
 
     def start_requests(self):
 
-        urls = [
+        URLS = {
+                "premier":[
 
-                'https://www.betexplorer.com/soccer/italy/serie-a/results',
-                'https://www.betexplorer.com/soccer/italy/serie-a-2020-2021/results',
-                'https://www.betexplorer.com/soccer/italy/serie-a-2019-2020/results',
-                'https://www.betexplorer.com/soccer/italy/serie-a-2018-2019/results',
-                'https://www.betexplorer.com/soccer/italy/serie-a-2017-2018/results',
-                #'https://www.betexplorer.com/soccer/italy/serie-a-2016-2017/results',
+                      'https://www.betexplorer.com/soccer/england/premier-league/results',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2020-2021/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2019-2020/results/'
+                ]
+                }
 
-        ]
+        urls = URLS[self.parameter1] 
+
 
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)

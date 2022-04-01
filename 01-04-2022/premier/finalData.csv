@@ -1,0 +1,1049 @@
+homeTeam,awayTeam,league,result,odds,date
+Leicester,Brentford,Premier League,2:1,"['2.12', '3.37', '3.59']",2022-03-20
+Tottenham,West Ham,Premier League,3:1,"['1.72', '3.80', '5.12']",2022-03-20
+Aston Villa,Arsenal,Premier League,0:1,"['2.98', '3.37', '2.45']",2022-03-19
+Wolves,Leeds,Premier League,2:3,"['2.21', '3.35', '3.41']",2022-03-18
+Everton,Newcastle,Premier League,1:0,"['2.42', '3.18', '3.16']",2022-03-17
+Arsenal,Liverpool,Premier League,0:2,"['3.58', '3.65', '2.04']",2022-03-16
+Brighton,Tottenham,Premier League,0:2,"['3.63', '3.39', '2.11']",2022-03-16
+Crystal Palace,Manchester City,Premier League,0:0,"['9.75', '5.37', '1.33']",2022-03-14
+Arsenal,Leicester,Premier League,2:0,"['1.42', '4.88', '7.40']",2022-03-13
+Chelsea,Newcastle,Premier League,1:0,"['1.40', '4.80', '8.29']",2022-03-13
+Everton,Wolves,Premier League,0:1,"['2.26', '3.11', '3.57']",2022-03-13
+Leeds,Norwich,Premier League,2:1,"['1.62', '4.17', '5.45']",2022-03-13
+Southampton,Watford,Premier League,1:2,"['1.65', '4.07', '5.27']",2022-03-13
+West Ham,Aston Villa,Premier League,2:1,"['2.49', '3.27', '2.95']",2022-03-13
+Brentford,Burnley,Premier League,2:0,"['2.11', '3.26', '3.77']",2022-03-12
+Brighton,Liverpool,Premier League,0:2,"['6.75', '4.62', '1.47']",2022-03-12
+Manchester Utd,Tottenham,Premier League,3:2,"['2.31', '3.51', '3.08']",2022-03-12
+Leeds,Aston Villa,Premier League,0:3,"['2.84', '3.56', '2.44']",2022-03-10
+Wolves,Watford,Premier League,4:0,"['1.92', '3.43', '4.34']",2022-03-10
+Southampton,Newcastle,Premier League,1:2,"['1.95', '3.55', '4.05']",2022-03-10
+Norwich,Chelsea,Premier League,1:3,"['9.56', '4.88', '1.36']",2022-03-10
+Tottenham,Everton,Premier League,5:0,"['1.71', '3.92', '4.95']",2022-03-07
+Manchester City,Manchester Utd,Premier League,4:1,"['1.40', '5.01', '7.68']",2022-03-06
+Watford,Arsenal,Premier League,2:3,"['6.57', '4.24', '1.53']",2022-03-06
+Liverpool,West Ham,Premier League,1:0,"['1.25', '6.63', '11.14']",2022-03-05
+Wolves,Crystal Palace,Premier League,0:2,"['2.36', '3.00', '3.47']",2022-03-05
+Newcastle,Brighton,Premier League,2:1,"['2.64', '3.11', '2.90']",2022-03-05
+Norwich,Brentford,Premier League,1:3,"['3.10', '3.15', '2.45']",2022-03-05
+Leicester,Leeds,Premier League,1:0,"['2.03', '3.77', '3.51']",2022-03-05
+Burnley,Chelsea,Premier League,0:4,"['7.40', '4.03', '1.51']",2022-03-05
+Aston Villa,Southampton,Premier League,4:0,"['2.22', '3.53', '3.22']",2022-03-05
+Burnley,Leicester,Premier League,0:2,"['2.90', '3.28', '2.53']",2022-03-01
+West Ham,Wolves,Premier League,1:0,"['1.92', '3.33', '4.49']",2022-02-27
+Brentford,Newcastle,Premier League,0:2,"['2.35', '3.10', '3.37']",2022-02-26
+Brighton,Aston Villa,Premier League,0:2,"['2.21', '3.26', '3.50']",2022-02-26
+Crystal Palace,Burnley,Premier League,1:1,"['1.90', '3.32', '4.59']",2022-02-26
+Everton,Manchester City,Premier League,0:1,"['12.54', '6.32', '1.24']",2022-02-26
+Leeds,Tottenham,Premier League,0:4,"['3.73', '3.79', '1.96']",2022-02-26
+Manchester Utd,Watford,Premier League,0:0,"['1.37', '4.98', '8.64']",2022-02-26
+Southampton,Norwich,Premier League,2:0,"['1.50', '4.45', '6.54']",2022-02-25
+Arsenal,Wolves,Premier League,2:1,"['1.66', '3.69', '5.80']",2022-02-24
+Watford,Crystal Palace,Premier League,1:4,"['2.95', '3.10', '2.63']",2022-02-23
+Burnley,Tottenham,Premier League,1:0,"['4.60', '3.61', '1.82']",2022-02-23
+Liverpool,Leeds,Premier League,6:0,"['1.18', '8.09', '14.65']",2022-02-23
+Leeds,Manchester Utd,Premier League,2:4,"['4.80', '4.13', '1.69']",2022-02-20
+Wolves,Leicester,Premier League,2:1,"['2.20', '3.22', '3.60']",2022-02-20
+Arsenal,Brentford,Premier League,2:1,"['1.54', '3.90', '7.13']",2022-02-19
+Aston Villa,Watford,Premier League,0:1,"['1.64', '3.93', '5.49']",2022-02-19
+Brighton,Burnley,Premier League,0:3,"['1.63', '3.75', '6.12']",2022-02-19
+Crystal Palace,Chelsea,Premier League,0:1,"['5.58', '3.71', '1.67']",2022-02-19
+Liverpool,Norwich,Premier League,3:1,"['1.12', '9.35', '22.71']",2022-02-19
+Manchester City,Tottenham,Premier League,2:3,"['1.27', '6.06', '10.88']",2022-02-19
+Southampton,Everton,Premier League,2:0,"['2.07', '3.52', '3.59']",2022-02-19
+West Ham,Newcastle,Premier League,1:1,"['1.64', '4.00', '5.41']",2022-02-19
+Manchester Utd,Brighton,Premier League,2:0,"['1.84', '3.56', '4.55']",2022-02-15
+Newcastle,Aston Villa,Premier League,1:0,"['2.77', '3.38', '2.58']",2022-02-13
+Tottenham,Wolves,Premier League,0:2,"['1.69', '3.69', '5.51']",2022-02-13
+Leicester,West Ham,Premier League,2:2,"['2.89', '3.48', '2.44']",2022-02-13
+Burnley,Liverpool,Premier League,0:1,"['12.85', '6.64', '1.23']",2022-02-13
+Brentford,Crystal Palace,Premier League,0:0,"['2.91', '3.07', '2.68']",2022-02-12
+Everton,Leeds,Premier League,3:0,"['2.49', '3.54', '2.79']",2022-02-12
+Manchester Utd,Southampton,Premier League,1:1,"['1.55', '4.45', '5.70']",2022-02-12
+Norwich,Manchester City,Premier League,0:4,"['15.98', '7.30', '1.19']",2022-02-12
+Watford,Brighton,Premier League,0:2,"['3.77', '3.27', '2.11']",2022-02-12
+Liverpool,Leicester,Premier League,2:0,"['1.21', '7.24', '12.87']",2022-02-10
+Wolves,Arsenal,Premier League,0:1,"['3.69', '3.17', '2.19']",2022-02-10
+Norwich,Crystal Palace,Premier League,1:1,"['3.53', '3.25', '2.21']",2022-02-09
+Tottenham,Southampton,Premier League,2:3,"['1.58', '4.17', '5.79']",2022-02-09
+Aston Villa,Leeds,Premier League,3:3,"['1.91', '3.79', '3.90']",2022-02-09
+Manchester City,Brentford,Premier League,2:0,"['1.09', '10.84', '29.75']",2022-02-09
+Burnley,Manchester Utd,Premier League,1:1,"['6.20', '4.19', '1.56']",2022-02-08
+Newcastle,Everton,Premier League,3:1,"['2.50', '3.34', '2.91']",2022-02-08
+West Ham,Watford,Premier League,1:0,"['1.54', '4.23', '6.39']",2022-02-08
+Burnley,Watford,Premier League,0:0,"['2.19', '3.26', '3.59']",2022-02-05
+Crystal Palace,Liverpool,Premier League,1:3,"['5.91', '4.14', '1.57']",2022-01-23
+Leicester,Brighton,Premier League,1:1,"['2.58', '3.41', '2.75']",2022-01-23
+Arsenal,Burnley,Premier League,0:0,"['1.30', '5.39', '10.97']",2022-01-23
+Chelsea,Tottenham,Premier League,2:0,"['1.73', '3.78', '5.00']",2022-01-23
+Manchester Utd,West Ham,Premier League,1:0,"['2.07', '3.62', '3.50']",2022-01-22
+Southampton,Manchester City,Premier League,1:1,"['10.65', '6.00', '1.28']",2022-01-22
+Brentford,Wolves,Premier League,1:2,"['2.45', '3.05', '3.22']",2022-01-22
+Leeds,Newcastle,Premier League,0:1,"['1.90', '3.85', '3.91']",2022-01-22
+Everton,Aston Villa,Premier League,0:1,"['2.72', '3.40', '2.62']",2022-01-22
+Watford,Norwich,Premier League,0:3,"['2.02', '3.52', '3.75']",2022-01-21
+Brentford,Manchester Utd,Premier League,1:3,"['4.54', '3.69', '1.80']",2022-01-19
+Leicester,Tottenham,Premier League,2:3,"['3.19', '3.39', '2.28']",2022-01-19
+Brighton,Chelsea,Premier League,1:1,"['5.51', '3.76', '1.66']",2022-01-18
+Liverpool,Brentford,Premier League,3:0,"['1.27', '6.14', '11.19']",2022-01-16
+West Ham,Leeds,Premier League,2:3,"['1.66', '4.19', '4.84']",2022-01-16
+Newcastle,Watford,Premier League,1:1,"['1.82', '3.74', '4.33']",2022-01-15
+Norwich,Everton,Premier League,2:1,"['3.38', '3.31', '2.23']",2022-01-15
+Wolves,Southampton,Premier League,3:1,"['2.42', '3.07', '3.24']",2022-01-15
+Manchester City,Chelsea,Premier League,1:0,"['1.62', '4.18', '5.29']",2022-01-15
+Aston Villa,Manchester Utd,Premier League,2:2,"['2.52', '3.49', '2.76']",2022-01-15
+Brighton,Crystal Palace,Premier League,1:1,"['2.03', '3.35', '3.96']",2022-01-14
+West Ham,Norwich,Premier League,2:0,"['1.40', '4.93', '7.92']",2022-01-12
+Southampton,Brentford,Premier League,4:1,"['2.17', '3.30', '3.55']",2022-01-11
+Manchester Utd,Wolves,Premier League,0:1,"['1.68', '3.74', '5.56']",2022-01-03
+Brentford,Aston Villa,Premier League,2:1,"['2.86', '3.22', '2.59']",2022-01-02
+Chelsea,Liverpool,Premier League,2:2,"['2.59', '3.48', '2.68']",2022-01-02
+Leeds,Burnley,Premier League,3:1,"['2.04', '3.57', '3.63']",2022-01-02
+Everton,Brighton,Premier League,2:3,"['2.86', '3.10', '2.68']",2022-01-02
+Arsenal,Manchester City,Premier League,1:2,"['5.15', '4.17', '1.64']",2022-01-01
+Crystal Palace,West Ham,Premier League,2:3,"['3.41', '3.32', '2.21']",2022-01-01
+Watford,Tottenham,Premier League,0:1,"['5.66', '4.09', '1.60']",2022-01-01
+Manchester Utd,Burnley,Premier League,3:1,"['1.37', '4.99', '8.88']",2021-12-30
+Brentford,Manchester City,Premier League,0:1,"['16.02', '8.24', '1.16']",2021-12-29
+Chelsea,Brighton,Premier League,1:1,"['1.34', '4.94', '10.23']",2021-12-29
+Southampton,Tottenham,Premier League,1:1,"['3.70', '3.40', '2.08']",2021-12-28
+Watford,West Ham,Premier League,1:4,"['3.53', '3.68', '2.04']",2021-12-28
+Leicester,Liverpool,Premier League,1:0,"['8.65', '6.12', '1.31']",2021-12-28
+Crystal Palace,Norwich,Premier League,3:0,"['1.74', '3.54', '5.29']",2021-12-28
+Newcastle,Manchester Utd,Premier League,1:1,"['6.39', '4.63', '1.49']",2021-12-27
+Aston Villa,Chelsea,Premier League,1:3,"['5.15', '3.75', '1.71']",2021-12-26
+Brighton,Brentford,Premier League,2:0,"['1.94', '3.39', '4.26']",2021-12-26
+Manchester City,Leicester,Premier League,6:3,"['1.13', '9.87', '18.01']",2021-12-26
+Norwich,Arsenal,Premier League,0:5,"['6.39', '4.44', '1.51']",2021-12-26
+Tottenham,Crystal Palace,Premier League,3:0,"['1.71', '3.80', '5.09']",2021-12-26
+West Ham,Southampton,Premier League,2:3,"['1.95', '3.64', '3.90']",2021-12-26
+Wolves,Chelsea,Premier League,0:0,"['5.37', '3.41', '1.77']",2021-12-19
+Tottenham,Liverpool,Premier League,2:2,"['4.82', '4.12', '1.68']",2021-12-19
+Newcastle,Manchester City,Premier League,0:4,"['20.47', '9.35', '1.13']",2021-12-19
+Leeds,Arsenal,Premier League,1:4,"['5.76', '4.29', '1.57']",2021-12-18
+Chelsea,Everton,Premier League,1:1,"['1.20', '6.78', '16.42']",2021-12-16
+Liverpool,Newcastle,Premier League,3:1,"['1.11', '10.61', '24.47']",2021-12-16
+Arsenal,West Ham,Premier League,2:0,"['2.08', '3.56', '3.53']",2021-12-15
+Brighton,Wolves,Premier League,0:1,"['2.06', '3.18', '4.17']",2021-12-15
+Crystal Palace,Southampton,Premier League,2:2,"['2.07', '3.37', '3.76']",2021-12-15
+Norwich,Aston Villa,Premier League,0:2,"['3.69', '3.36', '2.10']",2021-12-14
+Manchester City,Leeds,Premier League,7:0,"['1.14', '8.97', '17.12']",2021-12-14
+Burnley,West Ham,Premier League,0:0,"['3.41', '3.43', '2.15']",2021-12-12
+Crystal Palace,Everton,Premier League,3:1,"['2.23', '3.19', '3.55']",2021-12-12
+Leicester,Newcastle,Premier League,4:0,"['1.73', '3.97', '4.60']",2021-12-12
+Arsenal,Southampton,Premier League,3:0,"['1.75', '3.86', '4.69']",2021-12-11
+Chelsea,Leeds,Premier League,3:2,"['1.23', '6.51', '12.62']",2021-12-11
+Liverpool,Aston Villa,Premier League,1:0,"['1.23', '6.66', '11.68']",2021-12-11
+Manchester City,Wolves,Premier League,1:0,"['1.16', '7.68', '17.83']",2021-12-11
+Norwich,Manchester Utd,Premier League,0:1,"['7.24', '4.83', '1.43']",2021-12-11
+Brentford,Watford,Premier League,2:1,"['2.51', '3.30', '2.89']",2021-12-10
+Everton,Arsenal,Premier League,2:1,"['3.49', '3.41', '2.14']",2021-12-06
+Aston Villa,Leicester,Premier League,2:1,"['2.23', '3.42', '3.25']",2021-12-05
+Leeds,Brentford,Premier League,2:2,"['1.82', '3.49', '4.75']",2021-12-05
+Manchester Utd,Crystal Palace,Premier League,1:0,"['1.52', '4.42', '6.41']",2021-12-05
+Tottenham,Norwich,Premier League,3:0,"['1.45', '4.48', '7.44']",2021-12-05
+Watford,Manchester City,Premier League,1:3,"['13.39', '7.03', '1.21']",2021-12-04
+West Ham,Chelsea,Premier League,3:2,"['4.82', '3.64', '1.79']",2021-12-04
+Wolves,Liverpool,Premier League,0:1,"['8.37', '5.01', '1.38']",2021-12-04
+Southampton,Brighton,Premier League,1:1,"['2.53', '3.15', '2.98']",2021-12-04
+Newcastle,Burnley,Premier League,1:0,"['2.34', '3.42', '3.05']",2021-12-04
+Tottenham,Brentford,Premier League,2:0,"['1.65', '3.90', '5.48']",2021-12-02
+Manchester Utd,Arsenal,Premier League,3:2,"['2.08', '3.61', '3.43']",2021-12-02
+Aston Villa,Manchester City,Premier League,1:2,"['7.31', '4.61', '1.45']",2021-12-01
+West Ham,Brighton,Premier League,1:1,"['1.98', '3.42', '4.10']",2021-12-01
+Wolves,Burnley,Premier League,0:0,"['1.93', '3.36', '4.34']",2021-12-01
+Everton,Liverpool,Premier League,1:4,"['8.46', '5.12', '1.36']",2021-12-01
+Watford,Chelsea,Premier League,1:2,"['9.73', '5.33', '1.33']",2021-12-01
+Southampton,Leicester,Premier League,2:2,"['2.33', '3.44', '3.09']",2021-12-01
+Leeds,Crystal Palace,Premier League,1:0,"['2.24', '3.32', '3.32']",2021-11-30
+Newcastle,Norwich,Premier League,1:1,"['2.09', '3.49', '3.56']",2021-11-30
+Brentford,Everton,Premier League,1:0,"['2.23', '3.23', '3.49']",2021-11-28
+Chelsea,Manchester Utd,Premier League,1:1,"['1.55', '4.15', '6.23']",2021-11-28
+Leicester,Watford,Premier League,4:2,"['1.69', '3.86', '5.14']",2021-11-28
+Manchester City,West Ham,Premier League,2:1,"['1.27', '6.12', '10.67']",2021-11-28
+Liverpool,Southampton,Premier League,4:0,"['1.25', '6.48', '11.24']",2021-11-27
+Norwich,Wolves,Premier League,0:0,"['3.57', '3.28', '2.17']",2021-11-27
+Brighton,Leeds,Premier League,0:0,"['2.17', '3.33', '3.52']",2021-11-27
+Crystal Palace,Aston Villa,Premier League,1:2,"['2.31', '3.22', '3.32']",2021-11-27
+Arsenal,Newcastle,Premier League,2:0,"['1.50', '4.50', '6.21']",2021-11-27
+Manchester City,Everton,Premier League,3:0,"['1.20', '7.02', '14.18']",2021-11-21
+Tottenham,Leeds,Premier League,2:1,"['1.59', '4.03', '5.80']",2021-11-21
+Newcastle,Brentford,Premier League,3:3,"['2.47', '3.39', '2.90']",2021-11-20
+Wolves,West Ham,Premier League,1:0,"['3.14', '3.24', '2.40']",2021-11-20
+Watford,Manchester Utd,Premier League,4:1,"['6.44', '4.56', '1.49']",2021-11-20
+Norwich,Southampton,Premier League,2:1,"['3.54', '3.44', '2.12']",2021-11-20
+Burnley,Crystal Palace,Premier League,3:3,"['2.83', '3.18', '2.67']",2021-11-20
+Liverpool,Arsenal,Premier League,4:0,"['1.52', '4.69', '5.86']",2021-11-20
+Leicester,Chelsea,Premier League,0:3,"['4.90', '3.68', '1.75']",2021-11-20
+Aston Villa,Brighton,Premier League,2:0,"['2.46', '3.29', '2.99']",2021-11-20
+Arsenal,Watford,Premier League,1:0,"['1.44', '4.71', '7.05']",2021-11-07
+Everton,Tottenham,Premier League,0:0,"['3.38', '3.28', '2.24']",2021-11-07
+Leeds,Leicester,Premier League,1:1,"['2.65', '3.45', '2.64']",2021-11-07
+West Ham,Liverpool,Premier League,3:2,"['4.44', '4.19', '1.72']",2021-11-07
+Brentford,Norwich,Premier League,1:2,"['1.64', '3.94', '5.53']",2021-11-06
+Brighton,Newcastle,Premier League,1:1,"['1.60', '4.07', '5.77']",2021-11-06
+Chelsea,Burnley,Premier League,1:1,"['1.27', '5.65', '12.48']",2021-11-06
+Crystal Palace,Wolves,Premier League,2:0,"['2.33', '3.11', '3.37']",2021-11-06
+Manchester Utd,Manchester City,Premier League,0:2,"['4.66', '4.11', '1.70']",2021-11-06
+Southampton,Aston Villa,Premier League,1:0,"['2.05', '3.63', '3.53']",2021-11-05
+Wolves,Everton,Premier League,2:1,"['2.22', '3.18', '3.55']",2021-11-01
+Aston Villa,West Ham,Premier League,1:4,"['2.96', '3.48', '2.37']",2021-10-31
+Norwich,Leeds,Premier League,1:2,"['3.58', '3.63', '2.03']",2021-10-31
+Burnley,Brentford,Premier League,3:1,"['2.61', '3.14', '2.88']",2021-10-30
+Leicester,Arsenal,Premier League,0:2,"['2.49', '3.48', '2.78']",2021-10-30
+Liverpool,Brighton,Premier League,2:2,"['1.27', '6.10', '10.46']",2021-10-30
+Manchester City,Crystal Palace,Premier League,0:2,"['1.14', '8.59', '19.53']",2021-10-30
+Newcastle,Chelsea,Premier League,0:3,"['7.85', '4.52', '1.43']",2021-10-30
+Tottenham,Manchester Utd,Premier League,0:3,"['3.11', '3.58', '2.25']",2021-10-30
+Watford,Southampton,Premier League,0:1,"['3.22', '3.44', '2.24']",2021-10-30
+Brentford,Leicester,Premier League,1:2,"['2.77', '3.39', '2.57']",2021-10-24
+Manchester Utd,Liverpool,Premier League,0:5,"['2.95', '3.58', '2.34']",2021-10-24
+West Ham,Tottenham,Premier League,1:0,"['2.28', '3.49', '3.12']",2021-10-24
+Brighton,Manchester City,Premier League,1:4,"['8.28', '4.83', '1.40']",2021-10-23
+Chelsea,Norwich,Premier League,7:0,"['1.22', '6.49', '14.45']",2021-10-23
+Crystal Palace,Newcastle,Premier League,1:1,"['1.90', '3.52', '4.24']",2021-10-23
+Everton,Watford,Premier League,2:5,"['1.79', '3.59', '4.81']",2021-10-23
+Leeds,Wolves,Premier League,1:1,"['2.42', '3.38', '2.95']",2021-10-23
+Southampton,Burnley,Premier League,2:2,"['1.96', '3.59', '3.91']",2021-10-23
+Arsenal,Aston Villa,Premier League,3:1,"['1.96', '3.63', '3.88']",2021-10-22
+Arsenal,Crystal Palace,Premier League,2:2,"['1.60', '4.00', '5.84']",2021-10-18
+Newcastle,Tottenham,Premier League,2:3,"['3.53', '3.61', '2.06']",2021-10-17
+Everton,West Ham,Premier League,0:1,"['2.83', '3.27', '2.59']",2021-10-17
+Manchester City,Burnley,Premier League,2:0,"['1.14', '8.99', '18.89']",2021-10-16
+Watford,Liverpool,Premier League,0:5,"['8.53', '5.54', '1.34']",2021-10-16
+Norwich,Brighton,Premier League,0:0,"['3.99', '3.47', '1.98']",2021-10-16
+Southampton,Leeds,Premier League,1:0,"['2.14', '3.57', '3.34']",2021-10-16
+Leicester,Manchester Utd,Premier League,4:2,"['3.65', '3.73', '1.99']",2021-10-16
+Brentford,Chelsea,Premier League,0:1,"['5.59', '3.83', '1.65']",2021-10-16
+Aston Villa,Wolves,Premier League,2:3,"['2.12', '3.20', '3.83']",2021-10-16
+Crystal Palace,Leicester,Premier League,2:2,"['2.81', '3.24', '2.62']",2021-10-03
+Liverpool,Manchester City,Premier League,2:2,"['2.98', '3.56', '2.33']",2021-10-03
+Tottenham,Aston Villa,Premier League,2:1,"['2.08', '3.43', '3.67']",2021-10-03
+West Ham,Brentford,Premier League,1:2,"['1.77', '3.71', '4.80']",2021-10-03
+Wolves,Newcastle,Premier League,2:1,"['1.76', '3.71', '4.78']",2021-10-02
+Manchester Utd,Everton,Premier League,1:1,"['1.54', '4.21', '6.48']",2021-10-02
+Leeds,Watford,Premier League,1:0,"['1.75', '3.94', '4.58']",2021-10-02
+Chelsea,Southampton,Premier League,3:1,"['1.42', '4.71', '7.95']",2021-10-02
+Burnley,Norwich,Premier League,0:0,"['1.95', '3.55', '3.99']",2021-10-02
+Brighton,Arsenal,Premier League,0:0,"['3.25', '3.27', '2.32']",2021-10-02
+Crystal Palace,Brighton,Premier League,1:1,"['2.87', '3.08', '2.69']",2021-09-27
+Southampton,Wolves,Premier League,0:1,"['2.18', '3.29', '3.53']",2021-09-26
+Arsenal,Tottenham,Premier League,3:1,"['2.19', '3.37', '3.44']",2021-09-26
+Brentford,Liverpool,Premier League,3:3,"['7.60', '4.96', '1.40']",2021-09-25
+Chelsea,Manchester City,Premier League,0:1,"['2.89', '3.16', '2.61']",2021-09-25
+Everton,Norwich,Premier League,2:0,"['1.68', '3.77', '5.45']",2021-09-25
+Leeds,West Ham,Premier League,1:2,"['2.93', '3.58', '2.36']",2021-09-25
+Leicester,Burnley,Premier League,2:2,"['1.67', '3.87', '5.33']",2021-09-25
+Manchester Utd,Aston Villa,Premier League,0:1,"['1.40', '5.00', '7.82']",2021-09-25
+Watford,Newcastle,Premier League,1:1,"['2.11', '3.46', '3.53']",2021-09-25
+Brighton,Leicester,Premier League,2:1,"['2.49', '3.21', '3.00']",2021-09-19
+Tottenham,Chelsea,Premier League,0:3,"['4.16', '3.41', '1.96']",2021-09-19
+West Ham,Manchester Utd,Premier League,1:2,"['4.37', '3.76', '1.81']",2021-09-19
+Manchester City,Southampton,Premier League,0:0,"['1.17', '8.00', '15.91']",2021-09-18
+Norwich,Watford,Premier League,1:3,"['2.28', '3.29', '3.32']",2021-09-18
+Wolves,Brentford,Premier League,0:2,"['1.81', '3.34', '5.11']",2021-09-18
+Liverpool,Crystal Palace,Premier League,3:0,"['1.28', '6.04', '10.61']",2021-09-18
+Burnley,Arsenal,Premier League,0:1,"['3.75', '3.61', '2.00']",2021-09-18
+Aston Villa,Everton,Premier League,3:0,"['2.16', '3.36', '3.52']",2021-09-18
+Newcastle,Leeds,Premier League,1:1,"['3.07', '3.65', '2.24']",2021-09-17
+Everton,Burnley,Premier League,3:1,"['1.77', '3.50', '5.23']",2021-09-13
+Leeds,Liverpool,Premier League,0:3,"['4.83', '4.30', '1.65']",2021-09-12
+Watford,Wolves,Premier League,0:2,"['3.57', '3.16', '2.23']",2021-09-11
+Southampton,West Ham,Premier League,0:0,"['3.05', '3.51', '2.32']",2021-09-11
+Manchester Utd,Newcastle,Premier League,4:1,"['1.19', '7.34', '15.52']",2021-09-11
+Leicester,Manchester City,Premier League,0:1,"['5.52', '3.98', '1.63']",2021-09-11
+Crystal Palace,Tottenham,Premier League,3:0,"['3.91', '3.30', '2.05']",2021-09-11
+Chelsea,Aston Villa,Premier League,3:0,"['1.33', '5.28', '9.50']",2021-09-11
+Brentford,Brighton,Premier League,0:1,"['3.04', '3.00', '2.63']",2021-09-11
+Arsenal,Norwich,Premier League,1:0,"['1.40', '4.88', '7.84']",2021-09-11
+Burnley,Leeds,Premier League,1:1,"['3.26', '3.52', '2.20']",2021-08-29
+Tottenham,Watford,Premier League,1:0,"['1.45', '4.44', '7.68']",2021-08-29
+Wolves,Manchester Utd,Premier League,0:1,"['4.93', '3.70', '1.75']",2021-08-29
+West Ham,Crystal Palace,Premier League,2:2,"['1.56', '4.09', '6.32']",2021-08-28
+Newcastle,Southampton,Premier League,2:2,"['2.42', '3.53', '2.85']",2021-08-28
+Norwich,Leicester,Premier League,1:2,"['4.19', '3.61', '1.89']",2021-08-28
+Brighton,Everton,Premier League,0:2,"['2.29', '3.21', '3.36']",2021-08-28
+Manchester City,Arsenal,Premier League,5:0,"['1.34', '5.20', '9.56']",2021-08-28
+Liverpool,Chelsea,Premier League,1:1,"['2.42', '3.31', '3.02']",2021-08-28
+Aston Villa,Brentford,Premier League,1:1,"['2.07', '3.29', '3.90']",2021-08-28
+West Ham,Leicester,Premier League,4:1,"['2.45', '3.45', '2.89']",2021-08-23
+Southampton,Manchester Utd,Premier League,1:1,"['5.37', '4.28', '1.61']",2021-08-22
+Wolves,Tottenham,Premier League,0:1,"['2.93', '3.06', '2.66']",2021-08-22
+Arsenal,Chelsea,Premier League,0:2,"['4.52', '3.53', '1.86']",2021-08-22
+Aston Villa,Newcastle,Premier League,2:0,"['1.83', '3.88', '4.18']",2021-08-21
+Brighton,Watford,Premier League,2:0,"['1.73', '3.57', '5.39']",2021-08-21
+Crystal Palace,Brentford,Premier League,0:0,"['2.65', '3.16', '2.86']",2021-08-21
+Leeds,Everton,Premier League,2:2,"['2.11', '3.48', '3.53']",2021-08-21
+Liverpool,Burnley,Premier League,2:0,"['1.24', '6.56', '12.02']",2021-08-21
+Manchester City,Norwich,Premier League,5:0,"['1.12', '9.94', '22.76']",2021-08-21
+Newcastle,West Ham,Premier League,2:4,"['3.36', '3.47', '2.18']",2021-08-15
+Tottenham,Manchester City,Premier League,1:0,"['5.91', '4.12', '1.58']",2021-08-15
+Manchester Utd,Leeds,Premier League,5:1,"['1.64', '4.17', '5.19']",2021-08-14
+Watford,Aston Villa,Premier League,3:2,"['3.48', '3.29', '2.21']",2021-08-14
+Norwich,Liverpool,Premier League,0:3,"['6.71', '4.82', '1.46']",2021-08-14
+Everton,Southampton,Premier League,3:1,"['2.04', '3.37', '3.93']",2021-08-14
+Leicester,Wolves,Premier League,1:0,"['1.74', '3.72', '5.00']",2021-08-14
+Burnley,Brighton,Premier League,1:2,"['3.17', '3.08', '2.47']",2021-08-14
+Chelsea,Crystal Palace,Premier League,3:0,"['1.32', '5.16', '10.53']",2021-08-14
+Brentford,Arsenal,Premier League,2:0,"['3.85', '3.26', '2.09']",2021-08-13
+Arsenal,Brighton,Premier League,2:0,"['1.67', '4.18', '4.91']",2021-05-23
+Fulham,Newcastle,Premier League,0:2,"['2.47', '3.41', '2.88']",2021-05-23
+Leeds,West Brom,Premier League,3:1,"['1.54', '4.64', '5.55']",2021-05-23
+Leicester,Tottenham,Premier League,2:4,"['1.78', '4.18', '4.13']",2021-05-23
+Liverpool,Crystal Palace,Premier League,2:0,"['1.16', '8.40', '15.96']",2021-05-23
+Manchester City,Everton,Premier League,5:0,"['1.29', '6.08', '9.50']",2021-05-23
+Sheffield Utd,Burnley,Premier League,1:0,"['2.78', '3.48', '2.52']",2021-05-23
+West Ham,Southampton,Premier League,3:0,"['1.77', '3.87', '4.54']",2021-05-23
+Wolves,Manchester Utd,Premier League,1:2,"['2.32', '3.26', '3.26']",2021-05-23
+Aston Villa,Chelsea,Premier League,2:1,"['6.95', '4.82', '1.44']",2021-05-23
+Burnley,Liverpool,Premier League,0:3,"['9.89', '6.31', '1.28']",2021-05-19
+Crystal Palace,Arsenal,Premier League,1:3,"['5.85', '4.10', '1.59']",2021-05-19
+Everton,Wolves,Premier League,1:0,"['1.79', '3.66', '4.75']",2021-05-19
+Newcastle,Sheffield Utd,Premier League,1:0,"['1.85', '3.73', '4.25']",2021-05-19
+Tottenham,Aston Villa,Premier League,1:2,"['1.61', '4.45', '5.10']",2021-05-19
+West Brom,West Ham,Premier League,1:3,"['5.05', '4.30', '1.63']",2021-05-19
+Brighton,Manchester City,Premier League,3:2,"['7.20', '4.65', '1.45']",2021-05-18
+Chelsea,Leicester,Premier League,2:1,"['1.68', '3.80', '5.34']",2021-05-18
+Manchester Utd,Fulham,Premier League,1:1,"['1.30', '5.76', '9.77']",2021-05-18
+Southampton,Leeds,Premier League,0:2,"['2.63', '3.79', '2.49']",2021-05-18
+Tottenham,Wolves,Premier League,2:0,"['1.54', '4.44', '5.89']",2021-05-16
+West Brom,Liverpool,Premier League,1:2,"['12.27', '7.16', '1.21']",2021-05-16
+Crystal Palace,Aston Villa,Premier League,3:2,"['3.09', '3.49', '2.30']",2021-05-16
+Everton,Sheffield Utd,Premier League,0:1,"['1.36', '5.06', '9.01']",2021-05-16
+Burnley,Leeds,Premier League,0:4,"['3.49', '3.80', '2.04']",2021-05-15
+Southampton,Fulham,Premier League,3:1,"['1.85', '3.73', '4.23']",2021-05-15
+Brighton,West Ham,Premier League,1:1,"['3.47', '3.53', '2.11']",2021-05-15
+Newcastle,Manchester City,Premier League,3:4,"['8.77', '5.72', '1.33']",2021-05-14
+Manchester Utd,Liverpool,Premier League,2:4,"['2.78', '3.73', '2.41']",2021-05-13
+Aston Villa,Everton,Premier League,0:0,"['3.05', '3.32', '2.43']",2021-05-13
+Chelsea,Arsenal,Premier League,0:1,"['1.94', '3.39', '4.29']",2021-05-12
+Manchester Utd,Leicester,Premier League,1:2,"['3.73', '3.55', '2.04']",2021-05-11
+Southampton,Crystal Palace,Premier League,3:1,"['1.87', '3.78', '4.08']",2021-05-11
+Fulham,Burnley,Premier League,0:2,"['2.22', '3.40', '3.35']",2021-05-10
+Arsenal,West Brom,Premier League,3:1,"['1.49', '4.51', '6.71']",2021-05-09
+Aston Villa,Manchester Utd,Premier League,1:3,"['4.42', '3.95', '1.77']",2021-05-09
+West Ham,Everton,Premier League,0:1,"['2.13', '3.52', '3.43']",2021-05-09
+Wolves,Brighton,Premier League,2:1,"['3.98', '3.30', '2.05']",2021-05-09
+Manchester City,Chelsea,Premier League,1:2,"['2.03', '3.34', '3.98']",2021-05-08
+Sheffield Utd,Crystal Palace,Premier League,0:2,"['2.97', '3.18', '2.57']",2021-05-08
+Leeds,Tottenham,Premier League,3:1,"['4.03', '3.97', '1.85']",2021-05-08
+Liverpool,Southampton,Premier League,2:0,"['1.30', '5.89', '9.25']",2021-05-08
+Leicester,Newcastle,Premier League,2:4,"['1.39', '4.94', '8.29']",2021-05-07
+West Brom,Wolves,Premier League,1:1,"['2.54', '3.12', '3.06']",2021-05-03
+Burnley,West Ham,Premier League,1:2,"['3.02', '3.53', '2.34']",2021-05-03
+Tottenham,Sheffield Utd,Premier League,4:0,"['1.32', '5.42', '9.90']",2021-05-02
+Newcastle,Arsenal,Premier League,0:2,"['3.73', '3.63', '2.01']",2021-05-02
+Brighton,Leeds,Premier League,2:0,"['2.06', '3.51', '3.70']",2021-05-01
+Chelsea,Fulham,Premier League,2:0,"['1.48', '4.19', '7.84']",2021-05-01
+Crystal Palace,Manchester City,Premier League,0:2,"['9.83', '5.40', '1.33']",2021-05-01
+Everton,Aston Villa,Premier League,1:2,"['1.98', '3.72', '3.75']",2021-05-01
+Southampton,Leicester,Premier League,1:1,"['4.11', '3.73', '1.89']",2021-04-30
+Leicester,Crystal Palace,Premier League,2:1,"['1.43', '4.63', '7.93']",2021-04-26
+Aston Villa,West Brom,Premier League,2:2,"['2.07', '3.48', '3.67']",2021-04-25
+Leeds,Manchester Utd,Premier League,0:0,"['4.33', '3.91', '1.79']",2021-04-25
+Wolves,Burnley,Premier League,0:4,"['2.34', '3.10', '3.42']",2021-04-25
+Sheffield Utd,Brighton,Premier League,1:0,"['6.26', '3.97', '1.58']",2021-04-24
+Liverpool,Newcastle,Premier League,1:1,"['1.21', '7.18', '12.60']",2021-04-24
+West Ham,Chelsea,Premier League,0:1,"['5.29', '3.93', '1.66']",2021-04-24
+Arsenal,Everton,Premier League,0:1,"['2.02', '3.54', '3.76']",2021-04-23
+Leicester,West Brom,Premier League,3:0,"['1.63', '3.93', '5.66']",2021-04-22
+Tottenham,Southampton,Premier League,2:1,"['1.85', '3.80', '4.18']",2021-04-21
+Aston Villa,Manchester City,Premier League,1:2,"['9.73', '5.30', '1.33']",2021-04-21
+Chelsea,Brighton,Premier League,0:0,"['1.67', '3.72', '5.71']",2021-04-20
+Leeds,Liverpool,Premier League,1:1,"['5.18', '4.45', '1.60']",2021-04-19
+Arsenal,Fulham,Premier League,1:1,"['1.84', '3.66', '4.43']",2021-04-18
+Manchester Utd,Burnley,Premier League,3:1,"['1.36', '5.17', '8.79']",2021-04-18
+Newcastle,West Ham,Premier League,3:2,"['3.42', '3.40', '2.19']",2021-04-17
+Wolves,Sheffield Utd,Premier League,1:0,"['1.78', '3.43', '5.25']",2021-04-17
+Everton,Tottenham,Premier League,2:2,"['3.49', '3.46', '2.13']",2021-04-16
+Brighton,Everton,Premier League,0:0,"['2.14', '3.46', '3.55']",2021-04-12
+West Brom,Southampton,Premier League,3:0,"['3.57', '3.57', '2.09']",2021-04-12
+Burnley,Newcastle,Premier League,1:2,"['2.27', '3.32', '3.30']",2021-04-11
+Sheffield Utd,Arsenal,Premier League,0:3,"['5.55', '3.90', '1.66']",2021-04-11
+Tottenham,Manchester Utd,Premier League,1:3,"['2.95', '3.54', '2.38']",2021-04-11
+West Ham,Leicester,Premier League,3:2,"['3.19', '3.24', '2.39']",2021-04-11
+Crystal Palace,Chelsea,Premier League,1:4,"['7.39', '4.21', '1.49']",2021-04-10
+Manchester City,Leeds,Premier League,1:2,"['1.38', '5.26', '7.82']",2021-04-10
+Liverpool,Aston Villa,Premier League,2:1,"['1.46', '4.68', '6.82']",2021-04-10
+Fulham,Wolves,Premier League,0:1,"['2.63', '3.08', '2.96']",2021-04-09
+Everton,Crystal Palace,Premier League,1:1,"['1.83', '3.45', '4.77']",2021-04-05
+Wolves,West Ham,Premier League,2:3,"['2.89', '3.17', '2.61']",2021-04-05
+Manchester Utd,Brighton,Premier League,2:1,"['1.66', '3.92', '5.37']",2021-04-04
+Newcastle,Tottenham,Premier League,2:2,"['5.37', '3.82', '1.68']",2021-04-04
+Southampton,Burnley,Premier League,3:2,"['2.00', '3.38', '4.02']",2021-04-04
+Aston Villa,Fulham,Premier League,3:1,"['2.54', '3.18', '2.99']",2021-04-04
+Arsenal,Liverpool,Premier League,0:3,"['2.84', '3.60', '2.41']",2021-04-03
+Chelsea,West Brom,Premier League,2:5,"['1.28', '5.64', '11.75']",2021-04-03
+Leeds,Sheffield Utd,Premier League,2:1,"['1.55', '4.18', '6.20']",2021-04-03
+Leicester,Manchester City,Premier League,0:2,"['5.30', '3.91', '1.67']",2021-04-03
+West Ham,Arsenal,Premier League,3:3,"['3.49', '3.47', '2.14']",2021-03-21
+Aston Villa,Tottenham,Premier League,0:2,"['3.06', '3.42', '2.36']",2021-03-21
+Brighton,Newcastle,Premier League,3:0,"['1.72', '3.54', '5.64']",2021-03-20
+Fulham,Leeds,Premier League,1:2,"['2.56', '3.30', '2.84']",2021-03-19
+Wolves,Liverpool,Premier League,0:1,"['5.66', '3.89', '1.63']",2021-03-15
+Arsenal,Tottenham,Premier League,2:1,"['2.65', '3.31', '2.74']",2021-03-14
+Leicester,Sheffield Utd,Premier League,5:0,"['1.52', '4.01', '7.35']",2021-03-14
+Manchester Utd,West Ham,Premier League,1:0,"['1.79', '3.60', '4.81']",2021-03-14
+Southampton,Brighton,Premier League,1:2,"['3.23', '3.18', '2.38']",2021-03-14
+Leeds,Chelsea,Premier League,0:0,"['4.98', '3.92', '1.70']",2021-03-13
+Crystal Palace,West Brom,Premier League,1:0,"['2.34', '3.11', '3.40']",2021-03-13
+Everton,Burnley,Premier League,1:2,"['1.98', '3.32', '4.22']",2021-03-13
+Fulham,Manchester City,Premier League,0:3,"['8.27', '4.74', '1.40']",2021-03-13
+Newcastle,Aston Villa,Premier League,1:1,"['3.65', '3.35', '2.12']",2021-03-12
+Manchester City,Southampton,Premier League,5:2,"['1.18', '7.42', '16.45']",2021-03-10
+Chelsea,Everton,Premier League,2:0,"['1.62', '3.88', '5.93']",2021-03-08
+West Ham,Leeds,Premier League,2:0,"['2.25', '3.57', '3.14']",2021-03-08
+Liverpool,Fulham,Premier League,0:1,"['1.63', '3.95', '5.68']",2021-03-07
+Tottenham,Crystal Palace,Premier League,4:1,"['1.54', '4.15', '6.56']",2021-03-07
+West Brom,Newcastle,Premier League,0:0,"['2.31', '3.19', '3.37']",2021-03-07
+Manchester City,Manchester Utd,Premier League,0:2,"['1.49', '4.42', '6.76']",2021-03-07
+Aston Villa,Wolves,Premier League,0:0,"['2.61', '3.12', '2.92']",2021-03-06
+Brighton,Leicester,Premier League,1:2,"['2.51', '3.17', '3.03']",2021-03-06
+Burnley,Arsenal,Premier League,1:1,"['4.92', '3.59', '1.78']",2021-03-06
+Sheffield Utd,Southampton,Premier League,0:2,"['3.75', '3.33', '2.10']",2021-03-06
+Liverpool,Chelsea,Premier League,0:1,"['2.19', '3.49', '3.32']",2021-03-04
+West Brom,Everton,Premier League,0:1,"['3.94', '3.47', '1.99']",2021-03-04
+Fulham,Tottenham,Premier League,0:1,"['3.90', '3.43', '2.02']",2021-03-04
+Burnley,Leicester,Premier League,1:1,"['3.85', '3.13', '2.16']",2021-03-03
+Crystal Palace,Manchester Utd,Premier League,0:0,"['7.64', '4.61', '1.43']",2021-03-03
+Sheffield Utd,Aston Villa,Premier League,1:0,"['3.56', '3.37', '2.15']",2021-03-03
+Manchester City,Wolves,Premier League,4:1,"['1.22', '6.56', '14.54']",2021-03-02
+Everton,Southampton,Premier League,1:0,"['2.14', '3.46', '3.47']",2021-03-01
+Tottenham,Burnley,Premier League,4:0,"['1.49', '4.30', '7.09']",2021-02-28
+Sheffield Utd,Liverpool,Premier League,0:2,"['8.12', '5.28', '1.37']",2021-02-28
+Leicester,Arsenal,Premier League,1:3,"['2.32', '3.34', '3.20']",2021-02-28
+Chelsea,Manchester Utd,Premier League,0:0,"['2.36', '3.32', '3.15']",2021-02-28
+Crystal Palace,Fulham,Premier League,0:0,"['3.48', '3.21', '2.25']",2021-02-28
+Newcastle,Wolves,Premier League,1:1,"['3.65', '3.16', '2.21']",2021-02-27
+West Brom,Brighton,Premier League,1:0,"['4.54', '3.54', '1.84']",2021-02-27
+Leeds,Aston Villa,Premier League,0:1,"['2.04', '3.80', '3.46']",2021-02-27
+Manchester City,West Ham,Premier League,2:1,"['1.27', '6.22', '10.93']",2021-02-27
+Leeds,Southampton,Premier League,3:0,"['2.15', '3.63', '3.30']",2021-02-23
+Brighton,Crystal Palace,Premier League,1:2,"['1.76', '3.49', '5.30']",2021-02-22
+Arsenal,Manchester City,Premier League,0:1,"['6.94', '4.59', '1.47']",2021-02-21
+Aston Villa,Leicester,Premier League,1:2,"['3.71', '3.66', '1.99']",2021-02-21
+West Ham,Tottenham,Premier League,2:1,"['3.02', '3.42', '2.38']",2021-02-21
+Manchester Utd,Newcastle,Premier League,3:1,"['1.33', '5.39', '9.49']",2021-02-21
+Burnley,West Brom,Premier League,0:0,"['2.14', '3.27', '3.68']",2021-02-20
+Fulham,Sheffield Utd,Premier League,1:0,"['1.96', '3.34', '4.21']",2021-02-20
+Liverpool,Everton,Premier League,0:2,"['1.37', '5.25', '8.01']",2021-02-20
+Southampton,Chelsea,Premier League,1:1,"['4.63', '3.77', '1.78']",2021-02-20
+Wolves,Leeds,Premier League,1:0,"['2.30', '3.37', '3.21']",2021-02-19
+Burnley,Fulham,Premier League,1:1,"['2.95', '3.15', '2.58']",2021-02-17
+Everton,Manchester City,Premier League,1:3,"['10.71', '5.77', '1.29']",2021-02-17
+Chelsea,Newcastle,Premier League,2:0,"['1.29', '5.80', '10.72']",2021-02-15
+West Ham,Sheffield Utd,Premier League,3:0,"['2.03', '3.28', '4.07']",2021-02-15
+Everton,Fulham,Premier League,0:2,"['2.02', '3.39', '3.93']",2021-02-14
+Southampton,Wolves,Premier League,1:2,"['2.22', '3.24', '3.52']",2021-02-14
+West Brom,Manchester Utd,Premier League,1:1,"['9.74', '5.82', '1.30']",2021-02-14
+Arsenal,Leeds,Premier League,4:2,"['1.81', '3.88', '4.27']",2021-02-14
+Brighton,Aston Villa,Premier League,0:0,"['2.87', '3.37', '2.50']",2021-02-13
+Crystal Palace,Burnley,Premier League,0:3,"['2.85', '3.15', '2.67']",2021-02-13
+Leicester,Liverpool,Premier League,3:1,"['3.75', '3.85', '1.94']",2021-02-13
+Manchester City,Tottenham,Premier League,3:0,"['1.33', '5.70', '8.62']",2021-02-13
+Leeds,Crystal Palace,Premier League,2:0,"['1.81', '3.72', '4.55']",2021-02-08
+Liverpool,Manchester City,Premier League,1:4,"['3.14', '3.60', '2.23']",2021-02-07
+Tottenham,West Brom,Premier League,2:0,"['1.38', '4.96', '8.36']",2021-02-07
+Wolves,Leicester,Premier League,0:0,"['3.35', '3.22', '2.30']",2021-02-07
+Sheffield Utd,Chelsea,Premier League,1:2,"['7.00', '4.28', '1.49']",2021-02-07
+Aston Villa,Arsenal,Premier League,1:0,"['2.97', '3.46', '2.39']",2021-02-06
+Burnley,Brighton,Premier League,1:1,"['3.62', '3.16', '2.21']",2021-02-06
+Fulham,West Ham,Premier League,0:0,"['4.12', '3.64', '1.90']",2021-02-06
+Manchester Utd,Everton,Premier League,3:3,"['1.61', '4.15', '5.45']",2021-02-06
+Newcastle,Southampton,Premier League,3:2,"['3.28', '3.48', '2.22']",2021-02-06
+Tottenham,Chelsea,Premier League,0:1,"['3.99', '3.47', '1.98']",2021-02-04
+Burnley,Manchester City,Premier League,0:2,"['15.65', '6.88', '1.20']",2021-02-03
+Leeds,Everton,Premier League,1:2,"['2.56', '3.47', '2.73']",2021-02-03
+Liverpool,Brighton,Premier League,0:1,"['1.49', '4.56', '6.49']",2021-02-03
+Aston Villa,West Ham,Premier League,1:3,"['2.34', '3.46', '3.05']",2021-02-03
+Fulham,Leicester,Premier League,0:2,"['3.78', '3.33', '2.07']",2021-02-03
+Manchester Utd,Southampton,Premier League,9:0,"['1.44', '4.77', '6.98']",2021-02-02
+Newcastle,Crystal Palace,Premier League,1:2,"['2.95', '3.27', '2.49']",2021-02-02
+Sheffield Utd,West Brom,Premier League,2:1,"['2.11', '3.34', '3.71']",2021-02-02
+Wolves,Arsenal,Premier League,2:1,"['3.61', '3.26', '2.18']",2021-02-02
+Leicester,Leeds,Premier League,1:3,"['1.83', '3.83', '4.23']",2021-01-31
+West Ham,Liverpool,Premier League,1:3,"['3.45', '3.68', '2.07']",2021-01-31
+Brighton,Tottenham,Premier League,1:0,"['3.25', '3.32', '2.30']",2021-01-31
+Chelsea,Burnley,Premier League,2:0,"['1.32', '5.25', '10.08']",2021-01-31
+Arsenal,Manchester Utd,Premier League,0:0,"['3.45', '3.49', '2.14']",2021-01-30
+Crystal Palace,Wolves,Premier League,1:0,"['2.94', '3.08', '2.61']",2021-01-30
+Everton,Newcastle,Premier League,0:2,"['1.56', '4.09', '6.29']",2021-01-30
+Manchester City,Sheffield Utd,Premier League,1:0,"['1.18', '7.34', '17.15']",2021-01-30
+Southampton,Aston Villa,Premier League,0:1,"['3.22', '3.68', '2.16']",2021-01-30
+West Brom,Fulham,Premier League,2:2,"['3.54', '3.30', '2.18']",2021-01-30
+Tottenham,Liverpool,Premier League,1:3,"['3.57', '3.78', '2.01']",2021-01-28
+Manchester Utd,Sheffield Utd,Premier League,1:2,"['1.27', '6.00', '10.78']",2021-01-27
+Everton,Leicester,Premier League,1:1,"['3.17', '3.29', '2.36']",2021-01-27
+Chelsea,Wolves,Premier League,0:0,"['1.64', '3.83', '5.79']",2021-01-27
+Burnley,Aston Villa,Premier League,3:2,"['4.41', '3.73', '1.81']",2021-01-27
+Brighton,Fulham,Premier League,0:0,"['2.05', '3.34', '3.91']",2021-01-27
+Southampton,Arsenal,Premier League,1:3,"['3.48', '3.66', '2.07']",2021-01-26
+Newcastle,Leeds,Premier League,1:2,"['4.07', '3.95', '1.83']",2021-01-26
+Crystal Palace,West Ham,Premier League,2:3,"['3.54', '3.32', '2.18']",2021-01-26
+West Brom,Manchester City,Premier League,0:5,"['19.41', '8.33', '1.15']",2021-01-26
+Aston Villa,Newcastle,Premier League,2:0,"['1.50', '4.60', '6.25']",2021-01-23
+Liverpool,Burnley,Premier League,0:1,"['1.32', '5.49', '9.72']",2021-01-21
+Fulham,Manchester Utd,Premier League,1:2,"['5.48', '4.10', '1.62']",2021-01-20
+Manchester City,Aston Villa,Premier League,2:0,"['1.31', '5.74', '9.51']",2021-01-20
+Leicester,Chelsea,Premier League,2:0,"['2.79', '3.42', '2.53']",2021-01-19
+West Ham,West Brom,Premier League,2:1,"['1.53', '4.20', '6.53']",2021-01-19
+Arsenal,Newcastle,Premier League,3:0,"['1.42', '4.76', '7.75']",2021-01-18
+Liverpool,Manchester Utd,Premier League,0:0,"['1.94', '3.88', '3.69']",2021-01-17
+Manchester City,Crystal Palace,Premier League,4:0,"['1.17', '7.48', '16.95']",2021-01-17
+Sheffield Utd,Tottenham,Premier League,1:3,"['4.77', '3.59', '1.80']",2021-01-17
+West Ham,Burnley,Premier League,1:0,"['1.76', '3.66', '4.88']",2021-01-16
+Wolves,West Brom,Premier League,2:3,"['1.64', '3.70', '6.15']",2021-01-16
+Leicester,Southampton,Premier League,2:0,"['1.70', '3.83', '5.08']",2021-01-16
+Leeds,Brighton,Premier League,0:1,"['2.27', '3.51', '3.13']",2021-01-16
+Fulham,Chelsea,Premier League,0:1,"['6.11', '4.09', '1.57']",2021-01-16
+Arsenal,Crystal Palace,Premier League,0:0,"['1.69', '3.80', '5.25']",2021-01-14
+Manchester City,Brighton,Premier League,1:0,"['1.17', '7.72', '16.79']",2021-01-13
+Tottenham,Fulham,Premier League,1:1,"['1.62', '3.85', '6.08']",2021-01-13
+Wolves,Everton,Premier League,1:2,"['2.58', '2.90', '3.18']",2021-01-12
+Burnley,Manchester Utd,Premier League,0:1,"['7.81', '4.86', '1.40']",2021-01-12
+Sheffield Utd,Newcastle,Premier League,1:0,"['2.34', '3.13', '3.37']",2021-01-12
+Southampton,Liverpool,Premier League,1:0,"['6.00', '4.75', '1.50']",2021-01-04
+Chelsea,Manchester City,Premier League,1:3,"['3.38', '3.59', '2.13']",2021-01-03
+Newcastle,Leicester,Premier League,1:2,"['6.04', '4.05', '1.59']",2021-01-03
+Brighton,Wolves,Premier League,3:3,"['2.84', '3.03', '2.76']",2021-01-02
+Crystal Palace,Sheffield Utd,Premier League,2:0,"['2.08', '3.26', '3.90']",2021-01-02
+Tottenham,Leeds,Premier League,3:0,"['1.84', '4.01', '4.03']",2021-01-02
+West Brom,Arsenal,Premier League,0:4,"['5.97', '4.02', '1.60']",2021-01-02
+Manchester Utd,Aston Villa,Premier League,2:1,"['1.70', '4.12', '4.73']",2021-01-01
+Everton,West Ham,Premier League,0:1,"['2.24', '3.45', '3.29']",2021-01-01
+Newcastle,Liverpool,Premier League,0:0,"['10.40', '6.01', '1.28']",2020-12-30
+Brighton,Arsenal,Premier League,0:1,"['3.64', '3.42', '2.10']",2020-12-29
+Burnley,Sheffield Utd,Premier League,1:0,"['2.39', '3.18', '3.21']",2020-12-29
+Manchester Utd,Wolves,Premier League,1:0,"['1.54', '4.28', '6.24']",2020-12-29
+Southampton,West Ham,Premier League,0:0,"['2.02', '3.56', '3.72']",2020-12-29
+West Brom,Leeds,Premier League,0:5,"['4.23', '3.95', '1.81']",2020-12-29
+Chelsea,Aston Villa,Premier League,1:1,"['1.80', '3.97', '4.21']",2020-12-28
+Crystal Palace,Leicester,Premier League,1:1,"['3.34', '3.38', '2.23']",2020-12-28
+Wolves,Tottenham,Premier League,1:1,"['3.53', '3.34', '2.17']",2020-12-27
+Liverpool,West Brom,Premier League,1:1,"['1.13', '9.16', '20.67']",2020-12-27
+West Ham,Brighton,Premier League,2:2,"['2.36', '3.32', '3.14']",2020-12-27
+Leeds,Burnley,Premier League,1:0,"['1.70', '4.16', '4.69']",2020-12-27
+Aston Villa,Crystal Palace,Premier League,3:0,"['1.82', '3.82', '4.30']",2020-12-26
+Arsenal,Chelsea,Premier League,3:1,"['4.74', '3.86', '1.74']",2020-12-26
+Leicester,Manchester Utd,Premier League,2:2,"['2.97', '3.54', '2.35']",2020-12-26
+Manchester City,Newcastle,Premier League,2:0,"['1.12', '9.81', '21.00']",2020-12-26
+Sheffield Utd,Everton,Premier League,0:1,"['3.37', '3.29', '2.26']",2020-12-26
+Fulham,Southampton,Premier League,0:0,"['2.88', '3.28', '2.54']",2020-12-26
+Burnley,Wolves,Premier League,2:1,"['3.45', '3.05', '2.34']",2020-12-21
+Chelsea,West Ham,Premier League,3:0,"['1.57', '4.32', '5.61']",2020-12-21
+West Brom,Aston Villa,Premier League,0:3,"['4.65', '4.03', '1.72']",2020-12-20
+Manchester Utd,Leeds,Premier League,6:2,"['1.71', '4.33', '4.39']",2020-12-20
+Brighton,Sheffield Utd,Premier League,1:1,"['1.87', '3.41', '4.61']",2020-12-20
+Tottenham,Leicester,Premier League,0:2,"['2.10', '3.49', '3.56']",2020-12-20
+Crystal Palace,Liverpool,Premier League,0:7,"['5.31', '4.05', '1.64']",2020-12-19
+Everton,Arsenal,Premier League,2:1,"['2.64', '3.40', '2.68']",2020-12-19
+Newcastle,Fulham,Premier League,1:1,"['2.84', '3.29', '2.57']",2020-12-19
+Southampton,Manchester City,Premier League,0:1,"['6.01', '4.61', '1.51']",2020-12-19
+Aston Villa,Burnley,Premier League,0:0,"['1.86', '3.74', '4.20']",2020-12-17
+Sheffield Utd,Manchester Utd,Premier League,2:3,"['7.17', '4.71', '1.44']",2020-12-17
+Leicester,Everton,Premier League,0:2,"['2.12', '3.50', '3.48']",2020-12-16
+West Ham,Crystal Palace,Premier League,1:1,"['2.17', '3.35', '3.50']",2020-12-16
+Liverpool,Tottenham,Premier League,2:1,"['1.82', '3.90', '4.17']",2020-12-16
+Leeds,Newcastle,Premier League,5:2,"['1.59', '4.38', '5.33']",2020-12-16
+Fulham,Brighton,Premier League,0:0,"['2.90', '3.28', '2.53']",2020-12-16
+Arsenal,Southampton,Premier League,1:1,"['2.16', '3.50', '3.38']",2020-12-16
+Manchester City,West Brom,Premier League,1:1,"['1.09', '11.11', '24.44']",2020-12-15
+Wolves,Chelsea,Premier League,2:1,"['5.42', '3.75', '1.68']",2020-12-15
+Arsenal,Burnley,Premier League,0:1,"['1.45', '4.64', '7.22']",2020-12-13
+Crystal Palace,Tottenham,Premier League,1:1,"['4.20', '3.77', '1.85']",2020-12-13
+Fulham,Liverpool,Premier League,1:1,"['8.22', '5.45', '1.35']",2020-12-13
+Leicester,Brighton,Premier League,3:0,"['2.03', '3.52', '3.73']",2020-12-13
+Southampton,Sheffield Utd,Premier League,3:0,"['1.63', '4.02', '5.45']",2020-12-13
+Newcastle,West Brom,Premier League,2:1,"['2.44', '3.23', '3.07']",2020-12-12
+Wolves,Aston Villa,Premier League,0:1,"['2.55', '3.23', '2.90']",2020-12-12
+Manchester Utd,Manchester City,Premier League,0:0,"['4.58', '4.17', '1.71']",2020-12-12
+Everton,Chelsea,Premier League,1:0,"['4.74', '4.24', '1.67']",2020-12-12
+Leeds,West Ham,Premier League,1:2,"['2.13', '3.74', '3.25']",2020-12-11
+Brighton,Southampton,Premier League,1:2,"['2.43', '3.38', '2.96']",2020-12-07
+Liverpool,Wolves,Premier League,4:0,"['1.58', '4.33', '5.59']",2020-12-06
+Sheffield Utd,Leicester,Premier League,1:2,"['4.07', '3.51', '1.95']",2020-12-06
+Tottenham,Arsenal,Premier League,2:0,"['2.17', '3.48', '3.37']",2020-12-06
+West Brom,Crystal Palace,Premier League,1:5,"['3.02', '3.29', '2.46']",2020-12-06
+Burnley,Everton,Premier League,1:1,"['3.73', '3.52', '2.04']",2020-12-05
+Chelsea,Leeds,Premier League,3:1,"['1.46', '4.92', '6.27']",2020-12-05
+Manchester City,Fulham,Premier League,2:0,"['1.11', '10.26', '21.14']",2020-12-05
+West Ham,Manchester Utd,Premier League,1:3,"['3.37', '3.48', '2.17']",2020-12-05
+West Ham,Aston Villa,Premier League,2:1,"['2.33', '3.50', '3.03']",2020-11-30
+Leicester,Fulham,Premier League,1:2,"['1.62', '4.09', '5.53']",2020-11-30
+Arsenal,Wolves,Premier League,1:2,"['2.08', '3.28', '3.85']",2020-11-29
+Chelsea,Tottenham,Premier League,0:0,"['2.01', '3.64', '3.69']",2020-11-29
+Southampton,Manchester Utd,Premier League,2:3,"['3.82', '3.71', '1.95']",2020-11-29
+Brighton,Liverpool,Premier League,1:1,"['4.85', '4.20', '1.67']",2020-11-28
+Everton,Leeds,Premier League,0:1,"['2.29', '3.64', '3.01']",2020-11-28
+Manchester City,Burnley,Premier League,5:0,"['1.12', '9.91', '20.05']",2020-11-28
+West Brom,Sheffield Utd,Premier League,1:0,"['2.63', '3.13', '2.89']",2020-11-28
+Crystal Palace,Newcastle,Premier League,0:2,"['2.15', '3.17', '3.78']",2020-11-27
+Burnley,Crystal Palace,Premier League,1:0,"['2.65', '3.09', '2.90']",2020-11-23
+Wolves,Southampton,Premier League,1:1,"['2.34', '3.20', '3.29']",2020-11-23
+Sheffield Utd,West Ham,Premier League,0:1,"['3.10', '3.20', '2.44']",2020-11-22
+Liverpool,Leicester,Premier League,3:0,"['1.77', '4.04', '4.31']",2020-11-22
+Leeds,Arsenal,Premier League,0:0,"['3.46', '3.76', '2.04']",2020-11-22
+Fulham,Everton,Premier League,2:3,"['4.19', '3.80', '1.84']",2020-11-22
+Manchester Utd,West Brom,Premier League,1:0,"['1.32', '5.68', '9.18']",2020-11-21
+Newcastle,Chelsea,Premier League,0:2,"['7.12', '4.73', '1.44']",2020-11-21
+Tottenham,Manchester City,Premier League,2:0,"['4.13', '4.10', '1.79']",2020-11-21
+Aston Villa,Brighton,Premier League,1:2,"['2.28', '3.52', '3.11']",2020-11-21
+West Brom,Tottenham,Premier League,0:1,"['6.47', '4.62', '1.48']",2020-11-08
+Arsenal,Aston Villa,Premier League,0:3,"['1.64', '4.35', '4.90']",2020-11-08
+Manchester City,Liverpool,Premier League,1:1,"['1.91', '4.12', '3.64']",2020-11-08
+Leicester,Wolves,Premier League,1:0,"['2.35', '3.14', '3.34']",2020-11-08
+Crystal Palace,Leeds,Premier League,4:1,"['2.83', '3.42', '2.50']",2020-11-07
+Everton,Manchester Utd,Premier League,1:3,"['3.17', '3.60', '2.22']",2020-11-07
+West Ham,Fulham,Premier League,1:0,"['1.84', '3.79', '4.19']",2020-11-07
+Chelsea,Sheffield Utd,Premier League,4:1,"['1.37', '4.97', '8.63']",2020-11-07
+Brighton,Burnley,Premier League,0:0,"['1.95', '3.39', '4.24']",2020-11-06
+Southampton,Newcastle,Premier League,2:0,"['2.16', '3.43', '3.44']",2020-11-06
+Fulham,West Brom,Premier League,2:0,"['2.42', '3.27', '3.08']",2020-11-02
+Leeds,Leicester,Premier League,1:4,"['2.41', '3.61', '2.83']",2020-11-02
+Tottenham,Brighton,Premier League,2:1,"['1.58', '4.27', '5.68']",2020-11-01
+Manchester Utd,Arsenal,Premier League,0:1,"['1.98', '3.58', '3.87']",2020-11-01
+Newcastle,Everton,Premier League,2:1,"['3.32', '3.32', '2.27']",2020-11-01
+Aston Villa,Southampton,Premier League,3:4,"['2.57', '3.54', '2.69']",2020-11-01
+Burnley,Chelsea,Premier League,0:3,"['5.62', '4.26', '1.59']",2020-10-31
+Sheffield Utd,Manchester City,Premier League,0:1,"['10.52', '6.09', '1.28']",2020-10-31
+Liverpool,West Ham,Premier League,2:1,"['1.41', '5.18', '7.01']",2020-10-31
+Wolves,Crystal Palace,Premier League,2:0,"['2.06', '3.13', '4.19']",2020-10-30
+Brighton,West Brom,Premier League,1:1,"['1.67', '3.97', '5.12']",2020-10-26
+Burnley,Tottenham,Premier League,0:1,"['5.67', '4.32', '1.57']",2020-10-26
+Arsenal,Leicester,Premier League,0:1,"['1.94', '3.53', '4.04']",2020-10-25
+Southampton,Everton,Premier League,2:0,"['3.05', '3.52', '2.30']",2020-10-25
+Wolves,Newcastle,Premier League,1:1,"['1.82', '3.41', '4.90']",2020-10-25
+Fulham,Crystal Palace,Premier League,1:2,"['2.58', '3.14', '2.94']",2020-10-24
+Liverpool,Sheffield Utd,Premier League,2:1,"['1.21', '7.23', '12.77']",2020-10-24
+Manchester Utd,Chelsea,Premier League,0:0,"['2.59', '3.44', '2.70']",2020-10-24
+West Ham,Manchester City,Premier League,1:1,"['6.63', '5.08', '1.43']",2020-10-24
+Aston Villa,Leeds,Premier League,0:3,"['1.90', '3.98', '3.75']",2020-10-23
+West Brom,Burnley,Premier League,0:0,"['2.56', '3.25', '2.88']",2020-10-19
+Leeds,Wolves,Premier League,0:1,"['2.46', '3.35', '2.93']",2020-10-19
+Crystal Palace,Brighton,Premier League,1:1,"['3.11', '3.18', '2.44']",2020-10-18
+Leicester,Aston Villa,Premier League,0:1,"['2.37', '3.56', '2.94']",2020-10-18
+Sheffield Utd,Fulham,Premier League,1:1,"['2.28', '3.15', '3.47']",2020-10-18
+Tottenham,West Ham,Premier League,3:3,"['1.63', '4.14', '5.35']",2020-10-18
+Manchester City,Arsenal,Premier League,1:0,"['1.52', '4.71', '5.64']",2020-10-17
+Chelsea,Southampton,Premier League,3:3,"['1.58', '4.47', '5.36']",2020-10-17
+Everton,Liverpool,Premier League,2:2,"['4.11', '4.17', '1.78']",2020-10-17
+Newcastle,Manchester Utd,Premier League,1:4,"['4.61', '4.09', '1.71']",2020-10-17
+Southampton,West Brom,Premier League,2:0,"['1.85', '3.73', '4.20']",2020-10-04
+Wolves,Fulham,Premier League,1:0,"['1.79', '3.45', '5.12']",2020-10-04
+Arsenal,Sheffield Utd,Premier League,2:1,"['1.49', '4.33', '7.04']",2020-10-04
+Aston Villa,Liverpool,Premier League,7:2,"['6.62', '4.87', '1.45']",2020-10-04
+Leicester,West Ham,Premier League,0:3,"['1.82', '3.88', '4.24']",2020-10-04
+Manchester Utd,Tottenham,Premier League,1:6,"['2.06', '3.60', '3.56']",2020-10-04
+Newcastle,Burnley,Premier League,3:1,"['2.40', '3.25', '3.11']",2020-10-03
+Chelsea,Crystal Palace,Premier League,4:0,"['1.53', '4.26', '6.42']",2020-10-03
+Leeds,Manchester City,Premier League,1:1,"['8.59', '6.62', '1.29']",2020-10-03
+Everton,Brighton,Premier League,4:2,"['1.79', '3.75', '4.62']",2020-10-03
+Fulham,Aston Villa,Premier League,0:3,"['3.02', '3.37', '2.40']",2020-09-28
+Liverpool,Arsenal,Premier League,3:1,"['1.48', '5.03', '5.84']",2020-09-28
+Manchester City,Leicester,Premier League,2:5,"['1.30', '5.83', '9.30']",2020-09-27
+Sheffield Utd,Leeds,Premier League,0:1,"['2.94', '3.34', '2.46']",2020-09-27
+Tottenham,Newcastle,Premier League,1:1,"['1.41', '4.78', '7.74']",2020-09-27
+West Ham,Wolves,Premier League,4:0,"['3.36', '3.26', '2.27']",2020-09-27
+Brighton,Manchester Utd,Premier League,2:3,"['5.39', '4.13', '1.62']",2020-09-26
+Burnley,Southampton,Premier League,0:1,"['3.24', '3.38', '2.28']",2020-09-26
+Crystal Palace,Everton,Premier League,1:2,"['3.50', '3.29', '2.19']",2020-09-26
+West Brom,Chelsea,Premier League,3:3,"['6.70', '4.74', '1.46']",2020-09-26
+Aston Villa,Sheffield Utd,Premier League,1:0,"['2.46', '3.16', '3.16']",2020-09-21
+Wolves,Manchester City,Premier League,1:3,"['6.94', '4.52', '1.48']",2020-09-21
+Newcastle,Brighton,Premier League,0:3,"['2.63', '3.18', '2.87']",2020-09-20
+Southampton,Tottenham,Premier League,2:5,"['3.36', '3.36', '2.25']",2020-09-20
+Chelsea,Liverpool,Premier League,0:2,"['3.40', '3.82', '2.06']",2020-09-20
+Leicester,Burnley,Premier League,4:2,"['1.56', '4.18', '6.27']",2020-09-20
+Manchester Utd,Crystal Palace,Premier League,1:3,"['1.37', '5.10', '8.65']",2020-09-19
+Leeds,Fulham,Premier League,4:3,"['1.72', '3.81', '5.10']",2020-09-19
+Everton,West Brom,Premier League,5:2,"['1.58', '4.02', '6.24']",2020-09-19
+Arsenal,West Ham,Premier League,2:1,"['1.51', '4.44', '6.49']",2020-09-19
+Brighton,Chelsea,Premier League,1:3,"['5.95', '4.33', '1.56']",2020-09-14
+Sheffield Utd,Wolves,Premier League,0:2,"['3.23', '2.85', '2.61']",2020-09-14
+Tottenham,Everton,Premier League,0:1,"['2.07', '3.39', '3.79']",2020-09-13
+West Brom,Leicester,Premier League,0:3,"['3.33', '3.32', '2.27']",2020-09-13
+Crystal Palace,Southampton,Premier League,1:0,"['3.06', '3.22', '2.46']",2020-09-12
+Fulham,Arsenal,Premier League,0:3,"['5.33', '3.95', '1.67']",2020-09-12
+Liverpool,Leeds,Premier League,4:3,"['1.27', '6.21', '10.70']",2020-09-12
+West Ham,Newcastle,Premier League,0:2,"['2.01', '3.56', '3.79']",2020-09-12
+Arsenal,Watford,Premier League,3:2,"['2.01', '3.77', '3.55']",2020-07-26
+Burnley,Brighton,Premier League,1:2,"['2.62', '3.33', '2.74']",2020-07-26
+Chelsea,Wolves,Premier League,2:0,"['1.90', '3.35', '4.52']",2020-07-26
+Crystal Palace,Tottenham,Premier League,1:1,"['6.81', '4.45', '1.49']",2020-07-26
+Everton,Bournemouth,Premier League,1:3,"['2.35', '3.63', '2.90']",2020-07-26
+Leicester,Manchester Utd,Premier League,0:2,"['3.71', '3.57', '2.02']",2020-07-26
+Manchester City,Norwich,Premier League,5:0,"['1.04', '18.93', '39.91']",2020-07-26
+Newcastle,Liverpool,Premier League,1:3,"['5.48', '4.50', '1.56']",2020-07-26
+Southampton,Sheffield Utd,Premier League,3:1,"['1.99', '3.59', '3.80']",2020-07-26
+West Ham,Aston Villa,Premier League,1:1,"['2.60', '3.51', '2.65']",2020-07-26
+Manchester Utd,West Ham,Premier League,1:1,"['1.25', '6.39', '11.03']",2020-07-22
+Liverpool,Chelsea,Premier League,5:3,"['1.91', '3.74', '3.93']",2020-07-22
+Aston Villa,Arsenal,Premier League,1:0,"['3.12', '3.70', '2.20']",2020-07-21
+Watford,Manchester City,Premier League,0:4,"['9.08', '6.02', '1.30']",2020-07-21
+Sheffield Utd,Everton,Premier League,0:1,"['1.97', '3.35', '4.15']",2020-07-20
+Wolves,Crystal Palace,Premier League,2:0,"['1.44', '4.21', '8.72']",2020-07-20
+Brighton,Newcastle,Premier League,0:0,"['1.99', '3.48', '3.93']",2020-07-20
+Bournemouth,Southampton,Premier League,0:2,"['2.42', '3.73', '2.74']",2020-07-19
+Tottenham,Leicester,Premier League,3:0,"['2.33', '3.34', '3.15']",2020-07-19
+Norwich,Burnley,Premier League,0:2,"['3.21', '3.38', '2.30']",2020-07-18
+West Ham,Watford,Premier League,3:1,"['2.47', '2.90', '3.33']",2020-07-17
+Crystal Palace,Manchester Utd,Premier League,0:2,"['8.68', '5.25', '1.35']",2020-07-16
+Everton,Aston Villa,Premier League,1:1,"['2.11', '3.51', '3.47']",2020-07-16
+Leicester,Sheffield Utd,Premier League,2:0,"['2.14', '3.22', '3.73']",2020-07-16
+Southampton,Brighton,Premier League,1:1,"['2.27', '3.35', '3.25']",2020-07-16
+Newcastle,Tottenham,Premier League,1:3,"['5.23', '4.07', '1.65']",2020-07-15
+Burnley,Wolves,Premier League,1:1,"['4.62', '3.25', '1.93']",2020-07-15
+Manchester City,Bournemouth,Premier League,2:1,"['1.14', '9.05', '16.92']",2020-07-15
+Arsenal,Liverpool,Premier League,2:1,"['4.50', '4.19', '1.72']",2020-07-15
+Chelsea,Norwich,Premier League,1:0,"['1.12', '9.46', '21.28']",2020-07-14
+Manchester Utd,Southampton,Premier League,2:2,"['1.27', '6.05', '10.51']",2020-07-13
+Tottenham,Arsenal,Premier League,2:1,"['2.73', '3.38', '2.61']",2020-07-12
+Bournemouth,Leicester,Premier League,4:1,"['4.92', '3.79', '1.73']",2020-07-12
+Wolves,Everton,Premier League,3:0,"['2.07', '3.17', '4.05']",2020-07-12
+Aston Villa,Crystal Palace,Premier League,2:0,"['2.35', '3.36', '3.12']",2020-07-12
+Brighton,Manchester City,Premier League,0:5,"['11.83', '6.57', '1.24']",2020-07-11
+Liverpool,Burnley,Premier League,1:1,"['1.22', '6.71', '12.80']",2020-07-11
+Norwich,West Ham,Premier League,0:4,"['3.64', '3.52', '2.06']",2020-07-11
+Sheffield Utd,Chelsea,Premier League,3:0,"['4.89', '3.78', '1.73']",2020-07-11
+Watford,Newcastle,Premier League,2:1,"['1.90', '3.52', '4.28']",2020-07-11
+Aston Villa,Manchester Utd,Premier League,0:3,"['8.96', '5.61', '1.32']",2020-07-09
+Bournemouth,Tottenham,Premier League,0:0,"['4.77', '3.85', '1.74']",2020-07-09
+Everton,Southampton,Premier League,1:1,"['2.08', '3.43', '3.68']",2020-07-09
+Sheffield Utd,Wolves,Premier League,1:0,"['4.14', '3.05', '2.09']",2020-07-08
+West Ham,Burnley,Premier League,0:1,"['1.84', '3.60', '4.45']",2020-07-08
+Manchester City,Newcastle,Premier League,5:0,"['1.10', '11.11', '21.53']",2020-07-08
+Brighton,Liverpool,Premier League,1:3,"['6.04', '4.04', '1.58']",2020-07-08
+Arsenal,Leicester,Premier League,1:1,"['2.21', '3.43', '3.31']",2020-07-07
+Crystal Palace,Chelsea,Premier League,2:3,"['7.64', '4.35', '1.46']",2020-07-07
+Watford,Norwich,Premier League,2:1,"['1.74', '3.71', '4.92']",2020-07-07
+Tottenham,Everton,Premier League,1:0,"['1.99', '3.53', '3.87']",2020-07-06
+Burnley,Sheffield Utd,Premier League,1:1,"['3.17', '2.92', '2.58']",2020-07-05
+Liverpool,Aston Villa,Premier League,2:0,"['1.19', '7.52', '13.85']",2020-07-05
+Newcastle,West Ham,Premier League,2:2,"['2.72', '3.34', '2.64']",2020-07-05
+Southampton,Manchester City,Premier League,1:0,"['8.95', '5.68', '1.32']",2020-07-05
+Leicester,Crystal Palace,Premier League,3:0,"['1.64', '3.70', '5.95']",2020-07-04
+Wolves,Arsenal,Premier League,0:2,"['2.37', '3.17', '3.25']",2020-07-04
+Norwich,Brighton,Premier League,0:1,"['3.54', '3.27', '2.19']",2020-07-04
+Manchester Utd,Bournemouth,Premier League,5:2,"['1.19', '7.24', '15.59']",2020-07-04
+Chelsea,Watford,Premier League,3:0,"['1.36', '5.05', '8.73']",2020-07-04
+Manchester City,Liverpool,Premier League,4:0,"['2.01', '3.74', '3.56']",2020-07-02
+Sheffield Utd,Tottenham,Premier League,3:1,"['4.73', '3.67', '1.78']",2020-07-02
+Arsenal,Norwich,Premier League,4:0,"['1.45', '4.84', '6.82']",2020-07-01
+Bournemouth,Newcastle,Premier League,1:4,"['2.18', '3.16', '3.73']",2020-07-01
+Everton,Leicester,Premier League,2:1,"['2.58', '3.21', '2.89']",2020-07-01
+West Ham,Chelsea,Premier League,3:2,"['6.91', '4.62', '1.46']",2020-07-01
+Brighton,Manchester Utd,Premier League,0:3,"['6.78', '4.12', '1.53']",2020-06-30
+Crystal Palace,Burnley,Premier League,0:1,"['2.01', '3.18', '4.31']",2020-06-29
+Watford,Southampton,Premier League,1:3,"['2.38', '3.23', '3.19']",2020-06-28
+Aston Villa,Wolves,Premier League,0:1,"['4.49', '3.41', '1.88']",2020-06-27
+Chelsea,Manchester City,Premier League,2:1,"['4.15', '3.95', '1.82']",2020-06-25
+Burnley,Watford,Premier League,1:0,"['3.58', '3.21', '2.21']",2020-06-25
+Southampton,Arsenal,Premier League,0:2,"['2.65', '3.53', '2.61']",2020-06-25
+Liverpool,Crystal Palace,Premier League,4:0,"['1.28', '5.70', '11.67']",2020-06-24
+Manchester Utd,Sheffield Utd,Premier League,3:0,"['1.36', '4.83', '9.46']",2020-06-24
+Newcastle,Aston Villa,Premier League,1:1,"['2.36', '3.34', '3.12']",2020-06-24
+Norwich,Everton,Premier League,0:1,"['4.42', '3.57', '1.86']",2020-06-24
+Wolves,Bournemouth,Premier League,1:0,"['1.57', '3.87', '6.71']",2020-06-24
+Leicester,Brighton,Premier League,0:0,"['1.62', '3.93', '5.84']",2020-06-23
+Tottenham,West Ham,Premier League,2:0,"['1.56', '4.15', '6.18']",2020-06-23
+Manchester City,Burnley,Premier League,5:0,"['1.14', '8.75', '20.11']",2020-06-22
+Everton,Liverpool,Premier League,0:0,"['5.72', '3.97', '1.62']",2020-06-21
+Newcastle,Sheffield Utd,Premier League,3:0,"['3.32', '3.03', '2.41']",2020-06-21
+Aston Villa,Chelsea,Premier League,1:2,"['6.95', '4.61', '1.46']",2020-06-21
+Bournemouth,Crystal Palace,Premier League,0:2,"['2.69', '3.10', '2.85']",2020-06-20
+Brighton,Arsenal,Premier League,2:1,"['3.23', '3.37', '2.28']",2020-06-20
+Watford,Leicester,Premier League,1:1,"['3.78', '3.44', '2.05']",2020-06-20
+West Ham,Wolves,Premier League,0:2,"['4.07', '3.39', '1.99']",2020-06-20
+Tottenham,Manchester Utd,Premier League,1:1,"['3.27', '3.43', '2.24']",2020-06-19
+Norwich,Southampton,Premier League,0:3,"['2.91', '3.42', '2.44']",2020-06-19
+Aston Villa,Sheffield Utd,Premier League,0:0,"['3.28', '3.29', '2.30']",2020-06-17
+Manchester City,Arsenal,Premier League,3:0,"['1.28', '6.28', '9.41']",2020-06-17
+Leicester,Aston Villa,Premier League,4:0,"['1.52', '4.44', '6.21']",2020-03-09
+Manchester Utd,Manchester City,Premier League,2:0,"['4.47', '3.90', '1.77']",2020-03-08
+Chelsea,Everton,Premier League,4:0,"['1.87', '3.79', '4.09']",2020-03-08
+Wolves,Brighton,Premier League,0:0,"['1.71', '3.73', '5.20']",2020-03-07
+Arsenal,West Ham,Premier League,1:0,"['1.64', '4.23', '5.09']",2020-03-07
+Burnley,Tottenham,Premier League,1:1,"['2.71', '3.31', '2.66']",2020-03-07
+Crystal Palace,Watford,Premier League,1:0,"['2.70', '3.08', '2.88']",2020-03-07
+Liverpool,Bournemouth,Premier League,2:1,"['1.22', '6.97', '12.59']",2020-03-07
+Sheffield Utd,Norwich,Premier League,1:0,"['1.67', '3.88', '5.35']",2020-03-07
+Southampton,Newcastle,Premier League,0:1,"['1.73', '3.82', '4.86']",2020-03-07
+Everton,Manchester Utd,Premier League,1:1,"['2.85', '3.32', '2.55']",2020-03-01
+Tottenham,Wolves,Premier League,2:3,"['2.78', '3.07', '2.77']",2020-03-01
+Bournemouth,Chelsea,Premier League,2:2,"['4.13', '3.74', '1.88']",2020-02-29
+Brighton,Crystal Palace,Premier League,0:1,"['2.20', '3.16', '3.67']",2020-02-29
+Newcastle,Burnley,Premier League,0:0,"['2.70', '3.22', '2.74']",2020-02-29
+Watford,Liverpool,Premier League,3:0,"['6.74', '4.59', '1.47']",2020-02-29
+West Ham,Southampton,Premier League,3:1,"['2.55', '3.52', '2.70']",2020-02-29
+Norwich,Leicester,Premier League,1:0,"['4.16', '3.82', '1.85']",2020-02-28
+Liverpool,West Ham,Premier League,3:2,"['1.15', '8.55', '17.53']",2020-02-24
+Arsenal,Everton,Premier League,3:2,"['1.97', '3.61', '3.80']",2020-02-23
+Manchester Utd,Watford,Premier League,3:0,"['1.58', '3.98', '6.17']",2020-02-23
+Wolves,Norwich,Premier League,3:0,"['1.51', '4.25', '6.89']",2020-02-23
+Sheffield Utd,Brighton,Premier League,1:1,"['1.91', '3.40', '4.37']",2020-02-22
+Crystal Palace,Newcastle,Premier League,1:0,"['2.17', '3.19', '3.67']",2020-02-22
+Southampton,Aston Villa,Premier League,2:0,"['1.71', '4.02', '4.70']",2020-02-22
+Leicester,Manchester City,Premier League,0:1,"['5.32', '4.45', '1.58']",2020-02-22
+Burnley,Bournemouth,Premier League,3:0,"['2.23', '3.29', '3.42']",2020-02-22
+Chelsea,Tottenham,Premier League,2:1,"['1.86', '3.52', '4.49']",2020-02-22
+Manchester City,West Ham,Premier League,2:0,"['1.12', '9.64', '19.21']",2020-02-19
+Chelsea,Manchester Utd,Premier League,0:2,"['1.98', '3.42', '4.02']",2020-02-17
+Arsenal,Newcastle,Premier League,4:0,"['1.45', '4.52', '7.49']",2020-02-16
+Aston Villa,Tottenham,Premier League,2:3,"['3.89', '3.72', '1.94']",2020-02-16
+Norwich,Liverpool,Premier League,0:1,"['8.65', '5.47', '1.34']",2020-02-15
+Southampton,Burnley,Premier League,1:2,"['1.68', '3.94', '5.10']",2020-02-15
+Wolves,Leicester,Premier League,0:0,"['2.67', '3.20', '2.79']",2020-02-14
+Sheffield Utd,Bournemouth,Premier League,2:1,"['1.76', '3.44', '5.38']",2020-02-09
+Brighton,Watford,Premier League,1:1,"['2.29', '3.35', '3.22']",2020-02-08
+Everton,Crystal Palace,Premier League,3:1,"['1.65', '3.69', '5.90']",2020-02-08
+Burnley,Arsenal,Premier League,0:0,"['3.93', '3.65', '1.93']",2020-02-02
+Tottenham,Manchester City,Premier League,2:0,"['5.83', '4.60', '1.52']",2020-02-02
+West Ham,Brighton,Premier League,3:3,"['2.50', '3.37', '2.86']",2020-02-01
+Liverpool,Southampton,Premier League,4:0,"['1.30', '5.63', '9.92']",2020-02-01
+Watford,Everton,Premier League,2:3,"['2.97', '3.34', '2.44']",2020-02-01
+Newcastle,Norwich,Premier League,0:0,"['2.25', '3.35', '3.33']",2020-02-01
+Manchester Utd,Wolves,Premier League,0:0,"['2.12', '3.35', '3.64']",2020-02-01
+Bournemouth,Aston Villa,Premier League,2:1,"['2.17', '3.36', '3.51']",2020-02-01
+Leicester,Chelsea,Premier League,2:2,"['2.53', '3.52', '2.72']",2020-02-01
+Crystal Palace,Sheffield Utd,Premier League,0:1,"['3.09', '3.01', '2.57']",2020-02-01
+West Ham,Liverpool,Premier League,0:2,"['8.50', '5.33', '1.35']",2020-01-29
+Wolves,Liverpool,Premier League,1:2,"['5.23', '3.94', '1.66']",2020-01-23
+Leicester,West Ham,Premier League,4:1,"['1.47', '4.70', '6.59']",2020-01-22
+Manchester Utd,Burnley,Premier League,0:2,"['1.44', '4.48', '7.81']",2020-01-22
+Tottenham,Norwich,Premier League,2:1,"['1.37', '5.13', '8.27']",2020-01-22
+Crystal Palace,Southampton,Premier League,0:2,"['2.76', '3.17', '2.73']",2020-01-21
+Aston Villa,Watford,Premier League,2:1,"['3.09', '3.39', '2.36']",2020-01-21
+Everton,Newcastle,Premier League,2:2,"['1.50', '4.27', '7.08']",2020-01-21
+Sheffield Utd,Manchester City,Premier League,0:1,"['8.07', '4.80', '1.40']",2020-01-21
+Chelsea,Arsenal,Premier League,2:2,"['1.73', '3.90', '4.74']",2020-01-21
+Bournemouth,Brighton,Premier League,3:1,"['2.84', '3.28', '2.57']",2020-01-21
+Burnley,Leicester,Premier League,2:1,"['4.26', '3.66', '1.87']",2020-01-19
+Liverpool,Manchester Utd,Premier League,2:0,"['1.45', '4.60', '7.27']",2020-01-19
+Newcastle,Chelsea,Premier League,1:0,"['5.58', '4.36', '1.57']",2020-01-18
+Arsenal,Sheffield Utd,Premier League,1:1,"['1.99', '3.37', '4.09']",2020-01-18
+Brighton,Aston Villa,Premier League,1:1,"['1.68', '4.14', '4.82']",2020-01-18
+Manchester City,Crystal Palace,Premier League,2:2,"['1.08', '11.35', '29.24']",2020-01-18
+Norwich,Bournemouth,Premier League,1:0,"['2.25', '3.47', '3.19']",2020-01-18
+Southampton,Wolves,Premier League,2:3,"['2.59', '3.11', '2.96']",2020-01-18
+Watford,Tottenham,Premier League,0:0,"['3.09', '3.60', '2.26']",2020-01-18
+West Ham,Everton,Premier League,1:1,"['2.91', '3.42', '2.44']",2020-01-18
+Bournemouth,Watford,Premier League,0:3,"['2.54', '3.40', '2.79']",2020-01-12
+Aston Villa,Manchester City,Premier League,1:6,"['15.16', '9.00', '1.15']",2020-01-12
+Wolves,Newcastle,Premier League,1:1,"['1.46', '4.42', '7.48']",2020-01-11
+Manchester Utd,Norwich,Premier League,4:0,"['1.33', '5.46', '9.21']",2020-01-11
+Everton,Brighton,Premier League,1:0,"['1.93', '3.67', '3.94']",2020-01-11
+Tottenham,Liverpool,Premier League,0:1,"['4.80', '4.04', '1.70']",2020-01-11
+Leicester,Southampton,Premier League,1:2,"['1.69', '3.88', '5.07']",2020-01-11
+Crystal Palace,Arsenal,Premier League,1:1,"['4.56', '3.86', '1.77']",2020-01-11
+Chelsea,Burnley,Premier League,3:0,"['1.34', '5.18', '9.54']",2020-01-11
+Sheffield Utd,West Ham,Premier League,1:0,"['1.93', '3.41', '4.27']",2020-01-10
+Liverpool,Sheffield Utd,Premier League,2:0,"['1.28', '5.64', '11.59']",2020-01-02
+Manchester City,Everton,Premier League,2:1,"['1.31', '5.74', '9.06']",2020-01-01
+Arsenal,Manchester Utd,Premier League,2:0,"['2.64', '3.61', '2.56']",2020-01-01
+Brighton,Chelsea,Premier League,1:1,"['3.85', '3.85', '1.91']",2020-01-01
+Burnley,Aston Villa,Premier League,1:2,"['1.96', '3.41', '4.15']",2020-01-01
+Newcastle,Leicester,Premier League,0:3,"['4.21', '3.84', '1.82']",2020-01-01
+Norwich,Crystal Palace,Premier League,1:1,"['2.36', '3.36', '3.09']",2020-01-01
+Southampton,Tottenham,Premier League,1:0,"['3.52', '3.81', '2.01']",2020-01-01
+Watford,Wolves,Premier League,2:1,"['3.20', '3.25', '2.35']",2020-01-01
+West Ham,Bournemouth,Premier League,4:0,"['1.91', '3.63', '4.10']",2020-01-01
+Arsenal,Chelsea,Premier League,1:2,"['2.91', '3.65', '2.33']",2019-12-29
+Liverpool,Wolves,Premier League,1:0,"['1.27', '6.05', '11.12']",2019-12-29
+Manchester City,Sheffield Utd,Premier League,2:0,"['1.22', '6.85', '12.08']",2019-12-29
+Burnley,Manchester Utd,Premier League,0:2,"['4.19', '3.61', '1.89']",2019-12-28
+Brighton,Bournemouth,Premier League,2:0,"['1.81', '3.77', '4.43']",2019-12-28
+Norwich,Tottenham,Premier League,2:2,"['4.89', '4.41', '1.63']",2019-12-28
+Watford,Aston Villa,Premier League,3:0,"['1.78', '3.99', '4.29']",2019-12-28
+Newcastle,Everton,Premier League,1:2,"['3.26', '3.31', '2.29']",2019-12-28
+Southampton,Crystal Palace,Premier League,1:1,"['1.94', '3.52', '4.09']",2019-12-28
+West Ham,Leicester,Premier League,1:2,"['2.54', '3.60', '2.67']",2019-12-28
+Wolves,Manchester City,Premier League,3:2,"['6.85', '5.28', '1.41']",2019-12-27
+Everton,Burnley,Premier League,1:0,"['1.73', '3.66', '5.13']",2019-12-26
+Aston Villa,Norwich,Premier League,1:0,"['2.20', '3.71', '3.11']",2019-12-26
+Bournemouth,Arsenal,Premier League,1:1,"['3.87', '4.07', '1.86']",2019-12-26
+Chelsea,Southampton,Premier League,0:2,"['1.39', '5.02', '8.10']",2019-12-26
+Crystal Palace,West Ham,Premier League,2:1,"['2.24', '3.42', '3.23']",2019-12-26
+Leicester,Liverpool,Premier League,0:4,"['3.53', '4.01', '1.95']",2019-12-26
+Manchester Utd,Newcastle,Premier League,4:1,"['1.34', '5.30', '8.88']",2019-12-26
+Sheffield Utd,Watford,Premier League,1:1,"['1.82', '3.56', '4.67']",2019-12-26
+Tottenham,Brighton,Premier League,2:1,"['1.51', '4.44', '6.22']",2019-12-26
+Watford,Manchester Utd,Premier League,2:0,"['4.75', '3.82', '1.75']",2019-12-22
+Tottenham,Chelsea,Premier League,0:2,"['2.33', '3.54', '2.99']",2019-12-22
+Newcastle,Crystal Palace,Premier League,1:0,"['2.40', '3.09', '3.25']",2019-12-21
+Norwich,Wolves,Premier League,1:2,"['4.02', '3.78', '1.89']",2019-12-21
+Brighton,Sheffield Utd,Premier League,0:1,"['2.16', '3.36', '3.51']",2019-12-21
+Manchester City,Leicester,Premier League,3:1,"['1.37', '5.66', '7.37']",2019-12-21
+Everton,Arsenal,Premier League,0:0,"['2.11', '3.80', '3.24']",2019-12-21
+Aston Villa,Southampton,Premier League,1:3,"['2.48', '3.65', '2.71']",2019-12-21
+Bournemouth,Burnley,Premier League,0:1,"['2.39', '3.30', '3.07']",2019-12-21
+Crystal Palace,Brighton,Premier League,1:1,"['2.80', '3.22', '2.66']",2019-12-16
+Arsenal,Manchester City,Premier League,0:3,"['6.73', '5.70', '1.39']",2019-12-15
+Manchester Utd,Everton,Premier League,1:1,"['1.66', '3.95', '5.26']",2019-12-15
+Wolves,Tottenham,Premier League,1:2,"['2.88', '3.56', '2.40']",2019-12-15
+Chelsea,Bournemouth,Premier League,0:1,"['1.22', '6.76', '12.33']",2019-12-14
+Burnley,Newcastle,Premier League,1:0,"['1.99', '3.44', '4.00']",2019-12-14
+Leicester,Norwich,Premier League,1:1,"['1.23', '6.70', '11.76']",2019-12-14
+Liverpool,Watford,Premier League,2:0,"['1.18', '7.59', '15.21']",2019-12-14
+Sheffield Utd,Aston Villa,Premier League,2:0,"['1.77', '3.86', '4.50']",2019-12-14
+Southampton,West Ham,Premier League,0:1,"['1.81', '3.97', '4.19']",2019-12-14
+West Ham,Arsenal,Premier League,1:3,"['3.59', '4.11', '1.92']",2019-12-09
+Brighton,Wolves,Premier League,2:2,"['2.60', '3.18', '2.89']",2019-12-08
+Newcastle,Southampton,Premier League,2:1,"['2.58', '3.29', '2.82']",2019-12-08
+Norwich,Sheffield Utd,Premier League,1:2,"['3.14', '3.46', '2.29']",2019-12-08
+Aston Villa,Leicester,Premier League,1:4,"['4.86', '4.15', '1.68']",2019-12-08
+Everton,Chelsea,Premier League,3:1,"['3.30', '3.74', '2.12']",2019-12-07
+Bournemouth,Liverpool,Premier League,0:3,"['6.37', '4.60', '1.49']",2019-12-07
+Watford,Crystal Palace,Premier League,0:0,"['2.44', '3.31', '3.01']",2019-12-07
+Manchester City,Manchester Utd,Premier League,1:2,"['1.32', '5.70', '8.89']",2019-12-07
+Tottenham,Burnley,Premier League,5:0,"['1.42', '4.81', '7.50']",2019-12-07
+Arsenal,Brighton,Premier League,1:2,"['1.64', '4.24', '5.07']",2019-12-05
+Sheffield Utd,Newcastle,Premier League,0:2,"['1.80', '3.52', '4.93']",2019-12-05
+Southampton,Norwich,Premier League,2:1,"['1.78', '3.87', '4.46']",2019-12-04
+Chelsea,Aston Villa,Premier League,2:1,"['1.34', '5.57', '8.43']",2019-12-04
+Leicester,Watford,Premier League,2:0,"['1.35', '5.29', '8.51']",2019-12-04
+Liverpool,Everton,Premier League,5:2,"['1.61', '4.06', '5.78']",2019-12-04
+Manchester Utd,Tottenham,Premier League,2:1,"['2.58', '3.39', '2.77']",2019-12-04
+Wolves,West Ham,Premier League,2:0,"['1.67', '3.94', '5.13']",2019-12-04
+Burnley,Manchester City,Premier League,1:4,"['11.20', '6.80', '1.24']",2019-12-03
+Crystal Palace,Bournemouth,Premier League,1:0,"['2.21', '3.41', '3.34']",2019-12-03
+Norwich,Arsenal,Premier League,2:2,"['4.36', '4.39', '1.70']",2019-12-01
+Wolves,Sheffield Utd,Premier League,1:1,"['2.22', '3.13', '3.64']",2019-12-01
+Leicester,Everton,Premier League,2:1,"['1.61', '4.08', '5.64']",2019-12-01
+Manchester Utd,Aston Villa,Premier League,2:2,"['1.45', '4.68', '6.99']",2019-12-01
+Tottenham,Bournemouth,Premier League,3:2,"['1.33', '5.54', '8.89']",2019-11-30
+Burnley,Crystal Palace,Premier League,0:2,"['2.03', '3.43', '3.86']",2019-11-30
+Chelsea,West Ham,Premier League,0:1,"['1.29', '6.08', '9.55']",2019-11-30
+Liverpool,Brighton,Premier League,2:1,"['1.20', '7.19', '14.26']",2019-11-30
+Newcastle,Manchester City,Premier League,2:2,"['12.21', '7.57', '1.20']",2019-11-30
+Southampton,Watford,Premier League,2:1,"['2.08', '3.52', '3.55']",2019-11-30
+Aston Villa,Newcastle,Premier League,2:0,"['2.17', '3.49', '3.35']",2019-11-25
+Sheffield Utd,Manchester Utd,Premier League,3:3,"['3.81', '3.34', '2.07']",2019-11-24
+West Ham,Tottenham,Premier League,2:3,"['4.75', '4.31', '1.66']",2019-11-23
+Arsenal,Southampton,Premier League,2:2,"['1.46', '4.64', '6.89']",2019-11-23
+Bournemouth,Wolves,Premier League,1:2,"['2.98', '3.22', '2.51']",2019-11-23
+Brighton,Leicester,Premier League,0:2,"['3.79', '3.55', '2.00']",2019-11-23
+Crystal Palace,Liverpool,Premier League,1:2,"['6.87', '4.45', '1.48']",2019-11-23
+Everton,Norwich,Premier League,0:2,"['1.35', '5.36', '8.37']",2019-11-23
+Manchester City,Chelsea,Premier League,2:1,"['1.39', '5.46', '7.12']",2019-11-23
+Watford,Burnley,Premier League,0:3,"['2.23', '3.28', '3.43']",2019-11-23
+Liverpool,Manchester City,Premier League,3:1,"['2.67', '3.62', '2.55']",2019-11-10
+Manchester Utd,Brighton,Premier League,3:1,"['1.63', '3.76', '6.10']",2019-11-10
+Wolves,Aston Villa,Premier League,2:1,"['1.70', '3.78', '5.28']",2019-11-10
+Leicester,Arsenal,Premier League,2:0,"['1.91', '3.96', '3.76']",2019-11-09
+Newcastle,Bournemouth,Premier League,2:1,"['2.59', '3.24', '2.86']",2019-11-09
+Tottenham,Sheffield Utd,Premier League,1:1,"['1.53', '4.28', '6.32']",2019-11-09
+Chelsea,Crystal Palace,Premier League,2:0,"['1.42', '4.76', '7.60']",2019-11-09
+Burnley,West Ham,Premier League,3:0,"['2.15', '3.61', '3.32']",2019-11-09
+Southampton,Everton,Premier League,1:2,"['3.15', '3.33', '2.34']",2019-11-09
+Norwich,Watford,Premier League,0:2,"['2.88', '3.59', '2.38']",2019-11-08
+Crystal Palace,Leicester,Premier League,0:2,"['3.71', '3.46', '2.06']",2019-11-03
+Everton,Tottenham,Premier League,1:1,"['2.48', '3.57', '2.77']",2019-11-03
+Brighton,Norwich,Premier League,2:0,"['1.58', '4.39', '5.36']",2019-11-02
+West Ham,Newcastle,Premier League,2:3,"['1.84', '3.70', '4.33']",2019-11-02
+Watford,Chelsea,Premier League,1:2,"['5.14', '4.27', '1.62']",2019-11-02
+Manchester City,Southampton,Premier League,2:1,"['1.07', '12.82', '30.21']",2019-11-02
+Sheffield Utd,Burnley,Premier League,3:0,"['2.25', '3.17', '3.48']",2019-11-02
+Bournemouth,Manchester Utd,Premier League,1:0,"['3.61', '3.53', '2.07']",2019-11-02
+Aston Villa,Liverpool,Premier League,1:2,"['9.30', '6.08', '1.29']",2019-11-02
+Arsenal,Wolves,Premier League,1:1,"['1.75', '3.85', '4.67']",2019-11-02
+Arsenal,Crystal Palace,Premier League,2:2,"['1.47', '4.70', '6.56']",2019-10-27
+Liverpool,Tottenham,Premier League,2:1,"['1.47', '4.78', '6.39']",2019-10-27
+Newcastle,Wolves,Premier League,1:1,"['3.40', '3.06', '2.37']",2019-10-27
+Norwich,Manchester Utd,Premier League,1:3,"['4.53', '3.74', '1.80']",2019-10-27
+Manchester City,Aston Villa,Premier League,3:0,"['1.07', '13.87', '26.69']",2019-10-26
+West Ham,Sheffield Utd,Premier League,1:1,"['2.26', '3.39', '3.25']",2019-10-26
+Watford,Bournemouth,Premier League,0:0,"['2.27', '3.52', '3.11']",2019-10-26
+Burnley,Chelsea,Premier League,2:4,"['5.02', '4.00', '1.68']",2019-10-26
+Brighton,Everton,Premier League,3:2,"['2.65', '3.31', '2.73']",2019-10-26
+Southampton,Leicester,Premier League,0:9,"['3.12', '3.32', '2.36']",2019-10-25
+Sheffield Utd,Arsenal,Premier League,1:0,"['3.66', '3.55', '2.04']",2019-10-21
+Manchester Utd,Liverpool,Premier League,1:1,"['4.01', '3.49', '1.96']",2019-10-20
+Aston Villa,Brighton,Premier League,2:1,"['2.36', '3.43', '3.03']",2019-10-19
+Bournemouth,Norwich,Premier League,0:0,"['1.74', '4.22', '4.28']",2019-10-19
+Chelsea,Newcastle,Premier League,1:0,"['1.28', '5.94', '10.87']",2019-10-19
+Crystal Palace,Manchester City,Premier League,0:2,"['11.88', '7.17', '1.22']",2019-10-19
+Everton,West Ham,Premier League,2:0,"['1.79', '3.99', '4.27']",2019-10-19
+Leicester,Burnley,Premier League,2:1,"['1.49', '4.35', '6.77']",2019-10-19
+Tottenham,Watford,Premier League,1:1,"['1.50', '4.46', '6.54']",2019-10-19
+Wolves,Southampton,Premier League,1:1,"['2.05', '3.25', '4.01']",2019-10-19
+Manchester City,Wolves,Premier League,0:2,"['1.13', '8.82', '20.03']",2019-10-06
+Newcastle,Manchester Utd,Premier League,1:0,"['3.89', '3.29', '2.07']",2019-10-06
+Southampton,Chelsea,Premier League,1:4,"['4.66', '4.15', '1.69']",2019-10-06
+Arsenal,Bournemouth,Premier League,1:0,"['1.36', '5.63', '7.50']",2019-10-06
+West Ham,Crystal Palace,Premier League,1:2,"['1.99', '3.62', '3.75']",2019-10-05
+Watford,Sheffield Utd,Premier League,0:0,"['2.34', '3.27', '3.20']",2019-10-05
+Norwich,Aston Villa,Premier League,1:5,"['2.40', '3.58', '2.85']",2019-10-05
+Burnley,Everton,Premier League,1:0,"['3.16', '3.23', '2.38']",2019-10-05
+Liverpool,Leicester,Premier League,2:1,"['1.57', '4.33', '5.63']",2019-10-05
+Brighton,Tottenham,Premier League,3:0,"['5.00', '3.88', '1.71']",2019-10-05
+Manchester Utd,Arsenal,Premier League,1:1,"['2.22', '3.53', '3.18']",2019-09-30
+Leicester,Newcastle,Premier League,5:0,"['1.52', '4.15', '6.89']",2019-09-29
+Aston Villa,Burnley,Premier League,2:2,"['2.29', '3.40', '3.19']",2019-09-28
+Bournemouth,West Ham,Premier League,2:2,"['2.38', '3.60', '2.86']",2019-09-28
+Chelsea,Brighton,Premier League,2:0,"['1.42', '4.71', '7.58']",2019-09-28
+Crystal Palace,Norwich,Premier League,2:0,"['1.91', '3.78', '3.90']",2019-09-28
+Everton,Manchester City,Premier League,1:3,"['8.54', '5.46', '1.34']",2019-09-28
+Sheffield Utd,Liverpool,Premier League,0:1,"['8.67', '5.28', '1.35']",2019-09-28
+Tottenham,Southampton,Premier League,2:1,"['1.38', '5.02', '8.09']",2019-09-28
+Wolves,Watford,Premier League,2:0,"['1.92', '3.44', '4.26']",2019-09-28
+Chelsea,Liverpool,Premier League,1:2,"['3.23', '3.68', '2.16']",2019-09-22
+Crystal Palace,Wolves,Premier League,1:1,"['2.74', '3.09', '2.81']",2019-09-22
+West Ham,Manchester Utd,Premier League,2:0,"['3.07', '3.46', '2.32']",2019-09-22
+Arsenal,Aston Villa,Premier League,3:2,"['1.41', '5.05', '7.17']",2019-09-22
+Burnley,Norwich,Premier League,2:0,"['2.01', '3.72', '3.60']",2019-09-21
+Everton,Sheffield Utd,Premier League,0:2,"['1.75', '3.56', '5.21']",2019-09-21
+Leicester,Tottenham,Premier League,2:1,"['2.71', '3.42', '2.60']",2019-09-21
+Manchester City,Watford,Premier League,8:0,"['1.10', '10.59', '23.67']",2019-09-21
+Newcastle,Brighton,Premier League,0:0,"['2.38', '3.19', '3.20']",2019-09-21
+Southampton,Bournemouth,Premier League,1:3,"['2.18', '3.54', '3.30']",2019-09-20
+Aston Villa,West Ham,Premier League,0:0,"['2.72', '3.59', '2.50']",2019-09-16
+Watford,Arsenal,Premier League,2:2,"['4.07', '3.85', '1.86']",2019-09-15
+Bournemouth,Everton,Premier League,3:1,"['3.32', '3.48', '2.19']",2019-09-15
+Brighton,Burnley,Premier League,1:1,"['2.12', '3.37', '3.61']",2019-09-14
+Liverpool,Newcastle,Premier League,3:1,"['1.19', '7.29', '14.50']",2019-09-14
+Manchester Utd,Leicester,Premier League,1:0,"['2.11', '3.34', '3.71']",2019-09-14
+Norwich,Manchester City,Premier League,3:2,"['25.21', '11.67', '1.09']",2019-09-14
+Sheffield Utd,Southampton,Premier League,0:1,"['2.46', '3.24', '3.02']",2019-09-14
+Tottenham,Crystal Palace,Premier League,4:0,"['1.41', '4.91', '7.65']",2019-09-14
+Wolves,Chelsea,Premier League,2:5,"['3.03', '3.39', '2.38']",2019-09-14
+Arsenal,Tottenham,Premier League,2:2,"['2.56', '3.62', '2.65']",2019-09-01
+Everton,Wolves,Premier League,3:2,"['2.06', '3.25', '3.99']",2019-09-01
+Chelsea,Sheffield Utd,Premier League,2:2,"['1.40', '4.77', '8.18']",2019-08-31
+Crystal Palace,Aston Villa,Premier League,1:0,"['2.26', '3.38', '3.27']",2019-08-31
+Leicester,Bournemouth,Premier League,3:1,"['1.67', '4.02', '5.12']",2019-08-31
+Manchester City,Brighton,Premier League,4:0,"['1.09', '11.29', '29.32']",2019-08-31
+Newcastle,Watford,Premier League,1:1,"['2.51', '3.18', '3.01']",2019-08-31
+Southampton,Manchester Utd,Premier League,1:1,"['4.05', '3.52', '1.95']",2019-08-31
+West Ham,Norwich,Premier League,2:0,"['1.88', '4.00', '3.80']",2019-08-31
+Burnley,Liverpool,Premier League,0:3,"['8.71', '5.40', '1.34']",2019-08-31
+Bournemouth,Manchester City,Premier League,1:3,"['16.31', '8.32', '1.17']",2019-08-25
+Tottenham,Newcastle,Premier League,0:1,"['1.27', '5.98', '10.85']",2019-08-25
+Wolves,Burnley,Premier League,1:1,"['1.78', '3.46', '5.21']",2019-08-25
+Watford,West Ham,Premier League,1:3,"['2.18', '3.51', '3.32']",2019-08-24
+Manchester Utd,Crystal Palace,Premier League,1:2,"['1.34', '5.29', '9.27']",2019-08-24
+Norwich,Chelsea,Premier League,2:3,"['4.20', '3.86', '1.83']",2019-08-24
+Sheffield Utd,Leicester,Premier League,1:2,"['3.23', '3.26', '2.33']",2019-08-24
+Liverpool,Arsenal,Premier League,3:1,"['1.46', '4.94', '6.36']",2019-08-24
+Brighton,Southampton,Premier League,0:2,"['2.34', '3.27', '3.23']",2019-08-24
+Aston Villa,Everton,Premier League,2:0,"['3.01', '3.38', '2.40']",2019-08-23
+Wolves,Manchester Utd,Premier League,1:1,"['3.01', '3.28', '2.45']",2019-08-19
+Chelsea,Leicester,Premier League,1:1,"['1.72', '3.82', '5.04']",2019-08-18
+Sheffield Utd,Crystal Palace,Premier League,1:0,"['2.50', '3.23', '2.99']",2019-08-18
+Everton,Watford,Premier League,1:0,"['1.82', '3.69', '4.55']",2019-08-17
+Southampton,Liverpool,Premier League,1:2,"['6.52', '4.55', '1.49']",2019-08-17
+Norwich,Newcastle,Premier League,3:1,"['2.13', '3.42', '3.55']",2019-08-17
+Manchester City,Tottenham,Premier League,2:2,"['1.36', '5.45', '8.08']",2019-08-17
+Aston Villa,Bournemouth,Premier League,1:2,"['2.25', '3.62', '3.10']",2019-08-17
+Brighton,West Ham,Premier League,1:1,"['2.21', '3.44', '3.35']",2019-08-17
+Arsenal,Burnley,Premier League,2:1,"['1.35', '5.29', '8.87']",2019-08-17
+Leicester,Wolves,Premier League,0:0,"['2.40', '3.13', '3.27']",2019-08-11
+Manchester Utd,Chelsea,Premier League,4:0,"['2.04', '3.36', '3.98']",2019-08-11
+Newcastle,Arsenal,Premier League,0:1,"['3.37', '3.50', '2.19']",2019-08-11
+Watford,Brighton,Premier League,0:3,"['2.07', '3.25', '4.02']",2019-08-10
+Crystal Palace,Everton,Premier League,0:0,"['3.39', '3.37', '2.22']",2019-08-10
+Tottenham,Aston Villa,Premier League,3:1,"['1.36', '5.32', '8.65']",2019-08-10
+West Ham,Manchester City,Premier League,0:5,"['11.07', '6.44', '1.25']",2019-08-10
+Burnley,Southampton,Premier League,3:0,"['2.65', '3.17', '2.87']",2019-08-10
+Bournemouth,Sheffield Utd,Premier League,1:1,"['1.97', '3.57', '3.95']",2019-08-10
+Liverpool,Norwich,Premier League,4:1,"['1.13', '9.48', '19.03']",2019-08-09
