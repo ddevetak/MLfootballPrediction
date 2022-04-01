@@ -5,4 +5,5 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 
 ## Tutorial
 
-> WWW
+Install scrapy
+`pip install scrapy`
