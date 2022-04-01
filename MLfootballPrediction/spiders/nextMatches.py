@@ -1,6 +1,6 @@
 import numpy as np
 import scrapy
-from scrapy_splash import SplashRequest
+#from scrapy_splash import SplashRequest
 from MLfootballPrediction.items import nextMatches
 import pandas as pd
 from datetime import datetime, timedelta
@@ -46,20 +46,39 @@ class getMatchesSpider(scrapy.Spider):
 
     def start_requests(self):
 
-        urls = [
+        URLS = {
+ 
+        # england
+        'premier':  ['https://www.betexplorer.com/soccer/england/premier-league/'] ,   
+        'cha':      ['https://www.betexplorer.com/soccer/england/championship/'] ,   
+        'eng1':     ['https://www.betexplorer.com/soccer/england/league-one/' ],
+        'eng2':     ['https://www.betexplorer.com/soccer/england/league-two/' ],
+        'national': ['https://www.betexplorer.com/soccer/england/national-league/'],
+        'north':    ['https://www.betexplorer.com/soccer/england/national-league-north/'],
+        'south':    ['https://www.betexplorer.com/soccer/england/national-league-south/']
 
-            'https://www.betexplorer.com/soccer/italy/serie-a/',
-        ]
+        }
 
+
+        urls = URLS[self.parameter1] 
 
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
 
+        leagueNames = {
+                        "Premier League":      "premier",
+                        "Championship":        "cha",
+                        "League One":          "eng1",
+                        "League Two":          "eng2",
+                        "National League":     "national"
+                      }
+         
         item = nextMatches()
 
         currentLeagueName = response.xpath('//h1[@class="wrap-section__header__title"]/span/text()').extract()[1]
+        currentLeagueName = leagueNames[currentLeagueName]
 
         teamNames, results, dateTime, odds = [], [], [], []
 
