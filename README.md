@@ -11,5 +11,7 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 
 3. Download code `git clone https://github.com/ddevetak/MLfootballPrediction.git`
 
+4. Get next matches `./getMatches.sh premier`. (england premier league)
+
 
 
