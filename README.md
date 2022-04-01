@@ -20,6 +20,15 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 
 
 
+5. Get previous historical games `./previousMatches.sh premier`
+
+`pd.read_csv("01-04-2022/premier/finalData.csv")`
+
+<img src="https://github.com/ddevetak/MLfootballPrediction/blob/master/figures/data.png" width="660" height="200">
+
+
+
+
 
 
 
