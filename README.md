@@ -9,4 +9,7 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
   
 2. Install scikit-learn  `pip install sklearn`
 
+3. Download code `git clone https://github.com/ddevetak/MLfootballPrediction.git`
+
+
 
