@@ -166,7 +166,9 @@ class FormatData:
 ####################################################
 # model data
 
-dataObject = FormatData("./01-04-2022/premier/finalData.csv", 7)   # ger2+, italy1+
+ARG = sys.argv
+
+dataObject = FormatData("./" + ARG[1] + "/finalData.csv", 7)   # ger2+, italy1+
 
 X, y = dataObject.X_numpy, dataObject.y_numpy
 
@@ -202,7 +204,7 @@ print( f'model odds   = {1/model.score(X_test, y_test):.2f}' )
 ####################################################
 # new matches
 
-nextDF = pd.read_csv("./01-04-2022/premier/games.csv")
+nextDF = pd.read_csv("./" + ARG[1] + "/games.csv")
 
 data16 = singleFormating(nextDF, dataObject.gamesPerTeam, dataObject.blockSize, 'next')
 data16 = data16.drop(["result"], axis = 1)
