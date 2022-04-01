@@ -16,7 +16,7 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 
 `pd.read_csv("01-04-2022/premier/games.csv")`
 
-<img src="https://github.com/ddevetak/MLfootballPrediction/blob/master/figures/games.png" width="800" height="200">
+<img src="https://github.com/ddevetak/MLfootballPrediction/blob/master/figures/games.png" width="700" height="200">
 
 
 
