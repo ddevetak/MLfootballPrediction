@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import ast
 import math
-from tabulate import tabulate
+#from tabulate import tabulate
 import sys
 import pickle
 
@@ -166,14 +166,14 @@ class FormatData:
 ####################################################
 # model data
 
-dataObject = FormatData("finalData.csv", 6)   # ger2+, italy1+
+dataObject = FormatData("./01-04-2022/premier/finalData.csv", 7)   # ger2+, italy1+
 
 X, y = dataObject.X_numpy, dataObject.y_numpy
 
-#model =  LogisticRegression(solver = 'liblinear', max_iter=700)
-model = RandomForestClassifier()
+model =  LogisticRegression(solver = 'liblinear', max_iter=700)
+#model = RandomForestClassifier()
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=11)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=43)
 
 odds_test =  X_test[:, 10:]
 X_train, X_test = X_train[:, 0:10], X_test[:, 0:10]
@@ -192,17 +192,17 @@ for xx in odds_compare:
 
 ODDS = sum(ODDS)/len(ODDS)
 
-print(ODDS)
 
-print( f'train model score = {model.score(X_train, y_train):.3f}' )
+#print( f'train model score = {model.score(X_train, y_train):.3f}' )
 print( f'test model score  = {model.score(X_test, y_test):.3f}' )
-print( f'test model prob   = {1/model.score(X_test, y_test):.3f}' )
+print("bookie odds = ", round(ODDS, 2))
+print( f'model odds   = {1/model.score(X_test, y_test):.2f}' )
 
 
 ####################################################
 # new matches
 
-nextDF = pd.read_csv("games.csv")
+nextDF = pd.read_csv("./01-04-2022/premier/games.csv")
 
 data16 = singleFormating(nextDF, dataObject.gamesPerTeam, dataObject.blockSize, 'next')
 data16 = data16.drop(["result"], axis = 1)

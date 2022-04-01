@@ -15,7 +15,12 @@ class getMatchesSpider(scrapy.Spider):
 
                       'https://www.betexplorer.com/soccer/england/premier-league/results',
                       'https://www.betexplorer.com/soccer/england/premier-league-2020-2021/results/',
-                      'https://www.betexplorer.com/soccer/england/premier-league-2019-2020/results/'
+                      'https://www.betexplorer.com/soccer/england/premier-league-2019-2020/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2018-2019/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2017-2018/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2016-2017/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2015-2016/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2014-2015/results/'
                 ]
                 }
 
