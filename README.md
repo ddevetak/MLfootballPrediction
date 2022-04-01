@@ -29,7 +29,7 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 6. Predict outcomes `run predict.py 01-04-2022/premier/`
 
 
-<img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/predictions.png" width="760" height="350">
+<img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/predictions.png" width="720" height="380">
 
 
 
