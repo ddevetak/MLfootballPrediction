@@ -26,7 +26,7 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 <img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/games.png" width="600" height="200">
 
 
-6. Predict outcomes `python predict.py 31-31-2025/premier/`.   
+6. Predict outcomes `python predict.py 31-01-2025/premier/`.   
 For model **LogisticRegression** is used. Other models are possible. Outcome = 1 (home win), 0 (draw), -1 (away win) 
 
 
