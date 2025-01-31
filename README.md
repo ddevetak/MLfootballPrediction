@@ -14,19 +14,19 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 4. Get next matches `./getMatches.sh premier` (england premier league)
 
 
-`pd.read_csv("01-04-2022/premier/games.csv")`
+`pd.read_csv("31-01-2025/premier/games.csv")`
 
 <img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/games.png" width="660" height="200">
 
 
 5. Get previous historical games `./previousMatches.sh premier`
 
-`pd.read_csv("01-04-2022/premier/finalData.csv")`
+`pd.read_csv("31-01-2025/premier/finalData.csv")`
 
 <img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/data.png" width="600" height="200">
 
 
-6. Predict outcomes `run predict.py 01-04-2022/premier/`.   
+6. Predict outcomes `python predict.py 31-31-2025/premier/`.   
 For model **LogisticRegression** is used. Other models are possible. Outcome = 1 (home win), 0 (draw), -1 (away win) 
 
 
