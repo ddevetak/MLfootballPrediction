@@ -77,7 +77,8 @@ class getMatchesSpider(scrapy.Spider):
          
         item = nextMatches()
 
-        currentLeagueName = response.xpath('//h1[@class="wrap-section__header__title"]/span/text()').extract()[1]
+        #                                                wrap-section__header__title
+        currentLeagueName = response.xpath('//h1[@class="wrap-section__header__title"]/text()').extract()[0].split(' 20')[0]
         currentLeagueName = leagueNames[currentLeagueName]
 
         teamNames, results, dateTime, odds = [], [], [], []
@@ -87,7 +88,7 @@ class getMatchesSpider(scrapy.Spider):
             
             x1 = ss.xpath("./td/a/span/strong/text() | ./td/a/span/text()").extract()  # team names
             checkIfOdss = ss.xpath("./td/@data-oid").extract()                         # check if empty odds
-            x2 = ss.xpath("./td/a/@data-odd").extract()                                # ODDS
+            x2 = ss.xpath("./td/button/@data-odd").extract()                           # ODDS
             x3 = ss.xpath("./td/text() | ./td/strong/span/text()").extract()[-1]       # date
 
             if '' in checkIfOdss or x3 == 'POSTP.': continue        

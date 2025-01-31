@@ -131,7 +131,9 @@ def singleFormating(df, gamesPerTeam, blockSize, dataType):  # df is full data -
                          "Hodds": odds[0], "Dodds": odds[1], "Aodds": odds[2], "result": np.sign(Result) }
     
     
-            inputFrame =  inputFrame.append(pd.DataFrame(inputData,  index=[Count]))
+            #inputFrame =  inputFrame.append(pd.DataFrame(inputData,  index=[Count]))
+            inputFrame = pd.concat([inputFrame, pd.DataFrame(inputData, index=[Count])], ignore_index=True)
+
 
     return inputFrame
 

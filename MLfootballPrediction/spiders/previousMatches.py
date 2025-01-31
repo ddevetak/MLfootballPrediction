@@ -14,13 +14,10 @@ class getMatchesSpider(scrapy.Spider):
                 "premier":[
 
                       'https://www.betexplorer.com/soccer/england/premier-league/results',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2023-2024/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2022-2023/results/',
+                      'https://www.betexplorer.com/soccer/england/premier-league-2021-2022/results/',
                       'https://www.betexplorer.com/soccer/england/premier-league-2020-2021/results/',
-                      'https://www.betexplorer.com/soccer/england/premier-league-2019-2020/results/',
-                      'https://www.betexplorer.com/soccer/england/premier-league-2018-2019/results/',
-                      'https://www.betexplorer.com/soccer/england/premier-league-2017-2018/results/',
-                      'https://www.betexplorer.com/soccer/england/premier-league-2016-2017/results/',
-                      'https://www.betexplorer.com/soccer/england/premier-league-2015-2016/results/',
-                      'https://www.betexplorer.com/soccer/england/premier-league-2014-2015/results/'
                 ]
                 }
 
@@ -37,9 +34,9 @@ class getMatchesSpider(scrapy.Spider):
         # NEW format
         teamNames, results, dates, odds = [], [], [], []
 
-        currentLeagueName = response.xpath('//h1[@class="wrap-section__header__title"]/span/text()').extract()[1]
+        #currentLeagueName = response.xpath('//h1[@class="wrap-section__header__title"]/span/text()').extract()[1]
 
-        print(currentLeagueName)
+        #print(currentLeagueName)
 
         for ss in response.xpath('//div[@id="js-leagueresults-all"]/div/div/table/tr')[1:]:
 
@@ -75,7 +72,7 @@ class getMatchesSpider(scrapy.Spider):
 
         fullData = []
         for xx in DATA:
-          tempDict = {"homeTeam": xx[0][0], "awayTeam": xx[0][1], "league": currentLeagueName, "result":xx[1], "odds": list(xx[2]), "date": pd.to_datetime(xx[3], format='%d.%m.%Y')} # final Y-M-D
+          tempDict = {"homeTeam": xx[0][0], "awayTeam": xx[0][1], "league": self.parameter1, "result":xx[1], "odds": list(xx[2]), "date": pd.to_datetime(xx[3], format='%d.%m.%Y')} # final Y-M-D
           fullData.append(tempDict)
 
         item["seasonData"] = fullData  
