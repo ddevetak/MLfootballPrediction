@@ -30,7 +30,7 @@ Using scrapy and sklearn packages for data extraction and machine learning predi
 For model **LogisticRegression** is used. Other models are possible. Outcome = 1 (home win), 0 (draw), -1 (away win) 
 
 
-<img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/predictions.png" width="720" height="230">
+<img src="https://github.com/ddevetak/MLfootballPrediction/blob/main/figures/predictions.png" width="720" height="200">
 
 
 
